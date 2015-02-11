@@ -1,13 +1,14 @@
+NODE_BIN = ./node_modules/.bin
+
 all: check build
 
 check:
-	echo 'Testing...'
+	$(NODE_BIN)/jshint index.js
 
 clean:
-	rm -rf build
+	rm -rf build/*
 
 build:
-	mkdir build
 	node index.js
 
 .PHONY: check clean build all

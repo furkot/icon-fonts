@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/furkot/icon-fonts",
   "dependencies": {
+    "jshint": "^2.6.0",
     "webfonts-generator": "^0.2.4"
   }
 }
