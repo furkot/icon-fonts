@@ -1,0 +1,15 @@
+car.svg - http://thenounproject.com/term/car/72/
+License: Public Domian http://creativecommons.org/publicdomain/mark/1.0/
+
+fuel.svg
+Iconset: MAKI https://www.mapbox.com/maki/
+License: CC0 http://creativecommons.org/publicdomain/zero/1.0/
+
+road.svg - http://thenounproject.com/term/road/4436/
+Iconset: OCHA Humanitarian Icons http://thenounproject.com/ochaavmu/collection/ocha-humanitarian-icons/
+License: Public Domian http://creativecommons.org/publicdomain/mark/1.0/
+Created by OCHA Visual Information Unit New York City, New York, US 2012
+
+freeway.svg - http://thenounproject.com/term/highway/13084/
+Iconset: Road Signs http://thenounproject.com/roadsigns/
+License: Public Domian http://creativecommons.org/publicdomain/mark/1.0/
