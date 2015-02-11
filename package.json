@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/furkot/icon-fonts/issues"
   },
-  "homepage": "https://github.com/furkot/icon-fonts"
+  "homepage": "https://github.com/furkot/icon-fonts",
+  "dependencies": {
+    "webfonts-generator": "^0.2.4"
+  }
 }
