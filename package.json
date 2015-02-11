@@ -1,0 +1,22 @@
+{
+  "name": "furkot-icon-fonts",
+  "version": "1.0.0",
+  "description": "SVG files and scripts to create icon fonts used by furkot trip planner",
+  "main": "index.js",
+  "scripts": {
+    "test": "make check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:furkot/icon-fonts.git"
+  },
+  "keywords": [
+    "furkot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furkot/icon-fonts/issues"
+  },
+  "homepage": "https://github.com/furkot/icon-fonts"
+}
