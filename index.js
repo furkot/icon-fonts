@@ -22,6 +22,8 @@ var options = {
   },
   rename: stripPrefix,
   html: true,
+  htmlTemplate: './templates/html.hbs',
+  cssTemplate: './templates/less.hbs',
   templateOptions: {
     baseClass: 'ff-icon',
     classPrefix: 'ff-icon-',

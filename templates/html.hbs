@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{fontName}}</title>
+	<link rel="stylesheet" href="furkot.css">
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 0;
+			padding: 10px 20px;
+		}
+
+		.preview {
+			display: inline-block;
+			margin: 3px;
+			text-align: center;
+		}
+
+		.preview__icon {
+			box-sizing: border-box;
+			display: block;
+			width: 58px;
+			height: 58px;
+			font-size: 32px;
+			background-color: rgba(0, 0, 0, .05);
+			color: chocolate;
+			line-height: 2;
+		}
+
+		.preview__label {
+			font-size: 10px;
+			display: inline-block;
+			max-width: 58px;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+
+		.icon {
+			display: inline-block;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<h1>{{fontName}}</h1>
+	{{#each names}}
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="{{../classPrefix}}{{this}}"></span>
+		</span>
+		<span class="preview__label">{{this}}</span>
+	</div>
+	{{/each}}
+</body>
+</html>
