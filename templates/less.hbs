@@ -25,6 +25,9 @@
 {{#each codepoints}}
 .{{../classPrefix}}{{@key}},
 {{/each}}
+{{#each alias}}
+{{@key}}:before,
+{{/each}}
 .{{baseClass}} {
   font-family: {{fontName}} !important;
   @icon-font-styles();
@@ -36,20 +39,10 @@
 }
 {{/each}}
 
-{{#if alias}}
-
-.alias-{{baseClass}}(@char) {
-  font-family: {{fontName}} !important;
-  @icon-font-styles();
-  &:before {
-    content: @char;
-  }
-}
-
 {{#each alias}}
 {{@key}} {
-  .alias-{{../baseClass}}("\\{{lookup ../codepoints this}}")
+  &:before {
+    content: "\\{{lookup ../codepoints this}}"
+  }
 }
 {{/each}}
-
-{{/if}}
