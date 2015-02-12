@@ -25,6 +25,7 @@ var options = {
   htmlTemplate: './templates/html.hbs',
   cssTemplate: './templates/less.hbs',
   templateOptions: {
+    fontsPath: 'fonts/',
     baseClass: 'ff-icon',
     classPrefix: 'ff-icon-',
     alias: {
