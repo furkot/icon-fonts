@@ -1,4 +1,5 @@
 var fs = require('fs');
+var find = require('find');
 var path = require('path');
 var webfontsGenerator = require('webfonts-generator');
 
@@ -42,16 +43,10 @@ var options = {
 
 function stripPrefix(name) {
   name = path.basename(name, '.svg');
-  if (/^\d{4}-/.test(name)) {
-    return name.slice(5);
-  }
-  return name;
+  return /^\d{4}-/.test(name) ? name.slice(5) : name;
 }
 
-
-options.files = fs.readdirSync('svg').map(function(name) {
-	return path.join('svg', name);
-});
+options.files = find.fileSync(/\.svg$/, 'svg');
 
 webfontsGenerator(options, function(error) {
   if (error) {
