@@ -8,18 +8,6 @@ var options = {
   fontName: 'furkot',
   types: ['eot', 'woff', 'ttf', 'svg'],
   startCodepoint: 0xe000,
-  codepoints: {
-    'flag': 0xe010,
-    'home': 0xe014,
-    'close': 0xe006,
-    'cloudy': 0xe00e,
-    'checkbox-checked': 0xe001,
-    'checkbox-unchecked': 0xe00f,
-    'new-tab': 0xe020,
-    'plus': 0xe02b,
-    'tab': 0xe058,
-    'warning': 0xe013
-  },
   rename: stripPrefix,
   html: true,
   htmlTemplate: './templates/html.hbs',
@@ -29,16 +17,22 @@ var options = {
     baseClass: 'ff-icon',
     classPrefix: 'ff-icon-',
     alias: {
+      '.auth-icon-facebook': 'facebook-2',
+      '.auth-icon-foursquare': 'foursquare',
+      '.auth-icon-google': 'google-plus-2',
+      '.auth-icon-tripit': 'tripit',
+      '.auth-icon-twitter': 'twitter',
+      '.ff-icon-reverse': 'tab',
+      '.fuwr-state-warning': 'warning',
+      '.icon-back': 'arrow-left',
+      '.icon-checked': 'checkbox-checked',
+      '.icon-close': 'close',
       '.icon-flag': 'flag',
       '.icon-home': 'home',
-      '.icon-close': 'close',
-      '.icon-weather': 'cloudy',
-      '.icon-checked': 'checkbox-checked',
-      '.icon-unchecked':'checkbox-unchecked',
       '.icon-link': 'new-tab',
       '.icon-plus': 'plus',
-      '.ff-icon-reverse': 'tab',
-      '.fuwr-state-warning': 'warning'
+      '.icon-unchecked':'checkbox-unchecked',
+      '.icon-weather': 'cloudy'
     }
   }
 };
