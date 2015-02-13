@@ -18,4 +18,8 @@ demo:
 	$(NODE_BIN)/lessc build/$(FONT).less build/$(FONT).css
 	xdg-open build/$(FONT).html
 
+deploy:
+	cp $(FONT_FILES) $(FURKOT_PROJECT_DIR)/client/root/res/fonts
+	cp build/$(FONT).less $(FURKOT_PROJECT_DIR)/client/root/style/font-$(FONT).less
+
 .PHONY: check clean build all
