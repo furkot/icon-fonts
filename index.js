@@ -3,6 +3,8 @@ var find = require('find');
 var path = require('path');
 var webfontsGenerator = require('webfonts-generator');
 
+var version = require('./package.json').version;
+
 var options = {
   dest: 'build/',
   fontName: 'furkot',
@@ -13,6 +15,7 @@ var options = {
   htmlTemplate: './templates/html.hbs',
   cssTemplate: './templates/less.hbs',
   templateOptions: {
+    version: version,
     fontsPath: 'fonts/',
     baseClass: 'ff-icon',
     classPrefix: 'ff-icon-',
