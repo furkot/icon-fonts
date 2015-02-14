@@ -5,6 +5,8 @@ FONT = furkot
 FONT_TYPES = svg eot woff ttf
 FONT_FILES = $(patsubst %, build/fonts/$(FONT).%,$(FONT_TYPES))
 
+SVG_FILES = $(shell find svg -name '*.svg')
+
 all: check build
 
 check:
@@ -19,13 +21,13 @@ build/fonts:
 build/fonts/%: build/%
 	mv $< $@
 
-build/$(FONT).%:
+build/$(FONT).%: index.js $(SVG_FILES)
 	node index.js
 	mv build/$(FONT).css build/$(FONT).less
 
 build: build/fonts $(FONT_FILES) build/$(FONT).less build/$(FONT).html
 
-demo:
+demo: build
 	$(NODE_BIN)/lessc build/$(FONT).less build/$(FONT).css
 	xdg-open build/$(FONT).html
 
