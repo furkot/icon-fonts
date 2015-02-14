@@ -10,6 +10,9 @@ var options = {
   fontName: 'furkot',
   types: ['eot', 'woff', 'ttf', 'svg'],
   startCodepoint: 0xe000,
+  codepoints: {
+    'heart': 0xe051
+  },
   rename: stripPrefix,
   html: true,
   htmlTemplate: './templates/html.hbs',
