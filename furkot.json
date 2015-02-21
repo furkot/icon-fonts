@@ -1,0 +1,29 @@
+{
+  "svgPath": "svg/furkot",
+  "codepoints": {
+    "heart": "0xe051"
+  },
+  "templateOptions": {
+    "fontsPath": "fonts/",
+    "baseClass": "ff-icon",
+    "classPrefix": "ff-icon-",
+    "alias": {
+      ".auth-icon-facebook": "facebook-2",
+      ".auth-icon-foursquare": "foursquare",
+      ".auth-icon-google": "google-plus-2",
+      ".auth-icon-tripit": "tripit",
+      ".auth-icon-twitter": "twitter",
+      ".ff-icon-reverse": "tab",
+      ".fuwr-state-warning": "warning",
+      ".icon-back": "arrow-left",
+      ".icon-checked": "checkbox-checked",
+      ".icon-close": "close",
+      ".icon-flag": "flag",
+      ".icon-home": "home",
+      ".icon-link": "new-tab",
+      ".icon-plus": "plus",
+      ".icon-unchecked":"checkbox-unchecked",
+      ".icon-weather": "cloudy"
+    }
+  }
+}

@@ -1,62 +1,21 @@
-var fs = require('fs');
-var find = require('find');
-var path = require('path');
-var webfontsGenerator = require('webfonts-generator');
-
+var argv = require('minimist')(process.argv.slice(2));
+var descriptors = argv._;
+var generate = require('./lib/generate');
 var version = require('./package.json').version;
-
-var options = {
-  dest: 'build/',
-  fontName: 'furkot',
-  types: ['eot', 'woff', 'ttf', 'svg'],
-  startCodepoint: 0xe000,
-  codepoints: {
-    'heart': 0xe051
-  },
-  rename: stripPrefix,
-  html: true,
-  htmlTemplate: './templates/html.hbs',
-  cssTemplate: './templates/less.hbs',
-  templateOptions: {
-    version: version,
-    fontsPath: 'fonts/',
-    baseClass: 'ff-icon',
-    classPrefix: 'ff-icon-',
-    alias: {
-      '.auth-icon-facebook': 'facebook-2',
-      '.auth-icon-foursquare': 'foursquare',
-      '.auth-icon-google': 'google-plus-2',
-      '.auth-icon-tripit': 'tripit',
-      '.auth-icon-twitter': 'twitter',
-      '.ff-icon-reverse': 'tab',
-      '.fuwr-state-warning': 'warning',
-      '.icon-back': 'arrow-left',
-      '.icon-checked': 'checkbox-checked',
-      '.icon-close': 'close',
-      '.icon-flag': 'flag',
-      '.icon-home': 'home',
-      '.icon-link': 'new-tab',
-      '.icon-plus': 'plus',
-      '.icon-unchecked':'checkbox-unchecked',
-      '.icon-weather': 'cloudy'
-    }
-  }
-};
+var path = require('path');
 
 
-function stripPrefix(name) {
-  name = path.basename(name, '.svg');
-  return /^\d{4}-/.test(name) ? name.slice(5) : name;
+if (descriptors.length < 1) {
+  console.error('Usage: ', process.argv.slice(0, 2).join(' '), 'font.json [, another-font.json]');
+  process.exit(1);
 }
 
-options.files = find.fileSync(/\.svg$/, 'svg');
+descriptors.forEach(function(d) {
+  var filename = path.resolve(__dirname, d),
+    dirname = path.dirname(filename),
+    basename = path.basename(filename, '.json'),
+    descriptor = require(filename);
 
-webfontsGenerator(options, function(error) {
-  if (error) {
-    console.log('Fail!', error);
-    process.exit(1);
-  }
-  else {
-    console.log('Done!');
-  }
+  descriptor.svgPath = path.resolve(dirname, descriptor.svgPath);
+  generate(basename, version, descriptor);
 });
