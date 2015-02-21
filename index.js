@@ -1,52 +1,21 @@
-var fs = require('fs');
-var find = require('find');
-var path = require('path');
-var webfontsGenerator = require('webfonts-generator');
-
+var argv = require('minimist')(process.argv.slice(2));
+var descriptors = argv._;
+var generate = require('./lib/generate');
 var version = require('./package.json').version;
-
-var merge = require('lodash').merge;
-
-var name = 'furkot';
+var path = require('path');
 
 
+if (descriptors.length < 1) {
+  console.error('Usage: ', process.argv.slice(0, 2).join(' '), 'font.json [, another-font.json]');
+  process.exit(1);
+}
 
-var defaults = {
-  dest: 'build/',
-  types: ['eot', 'woff', 'ttf', 'svg'],
-  startCodepoint: 0xe000,
-  rename: stripPrefix,
-  html: true,
-  htmlTemplate: './templates/html.hbs',
-  cssTemplate: './templates/less.hbs',
-  templateOptions: {
-    version: version
-  }
-};
+descriptors.forEach(function(d) {
+  var filename = path.resolve(__dirname, d),
+    dirname = path.dirname(filename),
+    basename = path.basename(filename, '.json'),
+    descriptor = require(filename);
 
-var descriptor = require('./' + name + '.json');
-var options = merge(descriptor, defaults);
-
-parseHexValues(options.codepoints);
-options.files = find.fileSync(/\.svg$/, options.svgPath);
-
-webfontsGenerator(options, function(error) {
-  if (error) {
-    console.log('Fail!', error);
-    process.exit(1);
-  }
-  else {
-    console.log('Done!');
-  }
+  descriptor.svgPath = path.resolve(dirname, descriptor.svgPath);
+  generate(basename, version, descriptor);
 });
-
-function parseHexValues(obj) {
-  Object.keys(obj).forEach(function(key) {
-    obj[key] = parseInt(obj[key], 16);
-  });
-}
-
-function stripPrefix(name) {
-  name = path.basename(name, '.svg');
-  return /^\d{4}-/.test(name) ? name.slice(5) : name;
-}

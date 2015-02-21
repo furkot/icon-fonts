@@ -10,7 +10,7 @@ SVG_FILES = $(shell find svg -name '*.svg')
 all: check build
 
 check:
-	$(NODE_BIN)/jshint index.js
+	$(NODE_BIN)/jshint index.js lib
 
 clean:
 	rm -rf build
@@ -22,7 +22,7 @@ build/fonts/%: build/%
 	mv $< $@
 
 build/$(FONT).%: index.js $(SVG_FILES)
-	node index.js
+	node index.js $(FONT).json
 	mv build/$(FONT).css build/$(FONT).less
 
 build: build/fonts $(FONT_FILES) build/$(FONT).less build/$(FONT).html
