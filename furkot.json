@@ -1,6 +1,5 @@
 {
-  "fontName": "furkot",
-  "svgPath": "svg",
+  "svgPath": "svg/furkot",
   "codepoints": {
     "heart": "0xe051"
   },
