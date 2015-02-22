@@ -1,0 +1,12 @@
+{
+  "svgPath": "svg/marker",
+  "codepoints": {
+  },
+  "templateOptions": {
+    "fontsPath": "fonts/",
+    "baseClass": "mf-icon",
+    "classPrefix": "mf-icon-",
+    "alias": {
+    }
+  }
+}
