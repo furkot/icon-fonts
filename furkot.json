@@ -16,13 +16,11 @@
       ".ff-icon-reverse": "tab",
       ".fuwr-state-warning": "warning",
       ".icon-back": "arrow-left",
-      ".icon-checked": "checkbox-checked",
       ".icon-close": "close",
       ".icon-flag": "flag",
       ".icon-home": "home",
       ".icon-link": "new-tab",
       ".icon-plus": "plus",
-      ".icon-unchecked":"checkbox-unchecked",
       ".icon-weather": "cloudy"
     }
   }
