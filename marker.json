@@ -91,7 +91,8 @@
     "treasure": "0xe057",
     "stargate": "0xe058",
     "railroadcrossing": "0xe059",
-    "coffee": "0xe05a"
+    "coffee": "0xe05a",
+    "lgbt": "0xe05b"
   },
   "templateOptions": {
     "fontsPath": "fonts/",
