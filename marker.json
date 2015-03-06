@@ -89,8 +89,7 @@
     "treasure": "0xe057",
     "teleport": "0xe058",
     "railroadcrossing": "0xe059",
-    "coffee": "0xe05a",
-    "lgbt": "0xe05b"
+    "coffee": "0xe05a"
   },
   "templateOptions": {
     "fontsPath": "fonts/",
