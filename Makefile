@@ -5,7 +5,7 @@ FONT = furkot
 FONT_TYPES = svg eot woff ttf
 FONT_FILES = $(patsubst %, build/fonts/$(FONT).%,$(FONT_TYPES))
 
-SVG_FILES = $(shell find svg -name '*.svg')
+SVG_FILES = $(shell find svg/$(FONT) -name '*.svg')
 
 all: check build
 
@@ -38,4 +38,8 @@ deploy:
 deploy-paths:
 	cp build/$(FONT).js $(FURKOT_PROJECT_DIR)/client/src/map/paths.js
 
-.PHONY: check clean build all demo deploy deploy-paths
+
+optimize:
+	node lib/optimize.js svg
+
+.PHONY: check clean build all demo deploy deploy-paths optimize
