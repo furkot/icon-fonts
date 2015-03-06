@@ -36,6 +36,6 @@ deploy:
 	cp build/$(FONT).less $(FURKOT_PROJECT_DIR)/client/root/style/font-$(FONT).less
 
 deploy-paths:
-	cp build/marker.js $(FURKOT_PROJECT_DIR)/client/src/map/paths.js
+	cp build/$(FONT).js $(FURKOT_PROJECT_DIR)/client/src/map/paths.js
 
 .PHONY: check clean build all demo deploy deploy-paths
