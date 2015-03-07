@@ -1,7 +1,7 @@
-car.svg - http://thenounproject.com/term/car/72/
+drive.svg - http://thenounproject.com/term/car/72/
 License: Public Domian http://creativecommons.org/publicdomain/mark/1.0/
 
-fuel.svg
+fillingstation.svg
 Iconset: MAKI https://www.mapbox.com/maki/
 License: CC0 http://creativecommons.org/publicdomain/zero/1.0/
 
