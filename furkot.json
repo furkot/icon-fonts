@@ -13,12 +13,7 @@
       ".auth-icon-google": "google-plus-2",
       ".auth-icon-tripit": "tripit",
       ".auth-icon-twitter": "twitter",
-      ".fuwr-state-warning": "warning",
-      ".icon-back": "arrow-left",
-      ".icon-close": "close",
-      ".icon-link": "new-tab",
-      ".icon-plus": "plus",
-      ".icon-weather": "cloudy"
+      ".icon-back": "arrow-left"
     },
     "paths": [
       "hotel",
