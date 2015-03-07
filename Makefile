@@ -38,8 +38,10 @@ deploy:
 deploy-paths:
 	cp build/$(FONT).js $(FURKOT_PROJECT_DIR)/client/src/map/paths.js
 
-
 optimize:
 	node lib/optimize.js svg
 
-.PHONY: check clean build all demo deploy deploy-paths optimize
+verify:
+	node lib/verify.js svg
+
+.PHONY: check clean build all demo deploy deploy-paths optimize verify
