@@ -34,8 +34,6 @@ demo: build
 deploy:
 	cp $(FONT_FILES) $(FURKOT_PROJECT_DIR)/client/root/res/fonts
 	cp build/$(FONT).less $(FURKOT_PROJECT_DIR)/client/root/style/font-$(FONT).less
-
-deploy-paths:
 	cp build/$(FONT).js $(FURKOT_PROJECT_DIR)/client/src/map/paths.js
 
 optimize:
@@ -44,4 +42,4 @@ optimize:
 verify:
 	node lib/verify.js svg
 
-.PHONY: check clean build all demo deploy deploy-paths optimize verify
+.PHONY: check clean build all demo deploy optimize verify
