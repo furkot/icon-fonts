@@ -20,12 +20,14 @@
   },
   "homepage": "https://github.com/furkot/icon-fonts",
   "dependencies": {
+    "el-component": "^1.0.0",
     "find": "^0.1.7",
     "handlebars": "^2.0.0",
     "jshint": "^2.6.0",
     "less": "^2.4.0",
     "lodash": "^3.2.0",
     "minimist": "^1.1.0",
+    "svgo": "^0.5.0",
     "svgpath": "^1.0.7",
     "webfonts-generator": "^0.2.4",
     "xmljson": "^0.2.0"
