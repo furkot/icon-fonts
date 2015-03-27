@@ -1,4 +1,13 @@
 
+1.2.2 / 2015-03-27
+==================
+
+ * 'atv' and 'off-road' icons
+ * better version of 'hostel' icon
+ * remove unused 'bypass' icon
+ * generate icon-license.md
+ * clean up license files
+
 1.2.1 / 2015-03-12
 ==================
 
