@@ -38,10 +38,6 @@ demo: build
 	xdg-open build/$(FONT).html
 
 deploy: $(LICENSE)
-	cp $(FONT_FILES) $(FURKOT_PROJECT_DIR)/client/root/res/fonts
-	cp build/$(FONT).less $(FURKOT_PROJECT_DIR)/client/root/style/font-$(FONT).less
-	cp build/$(FONT).js $(FURKOT_PROJECT_DIR)/client/src/map/paths.js
-	cp $(LICENSE) $(FURKOT_PROJECT_DIR)/node/views/components
 
 optimize:
 	node lib/optimize.js svg
