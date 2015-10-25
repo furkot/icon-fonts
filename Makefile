@@ -2,7 +2,7 @@ NODE_BIN = ./node_modules/.bin
 FONT = furkot
 
 
-FONT_TYPES = svg eot woff ttf
+FONT_TYPES = woff ttf
 FONT_FILES = $(patsubst %, build/fonts/$(FONT).%,$(FONT_TYPES))
 
 SVG_FILES = $(shell find svg/$(FONT) -name '*.svg')
