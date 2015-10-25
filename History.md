@@ -1,4 +1,10 @@
 
+1.2.9 / 2015-10-25
+==================
+
+ * puzzle icon
+ * pull fonts from furkot instead of pushing
+
 1.2.8 / 2015-08-05
 ==================
 
