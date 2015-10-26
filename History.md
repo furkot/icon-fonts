@@ -1,4 +1,10 @@
 
+1.2.10 / 2015-10-25
+===================
+
+ * lightbulb icon
+ * generate only font files used by Furkot
+
 1.2.9 / 2015-10-25
 ==================
 
