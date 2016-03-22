@@ -49,6 +49,6 @@ their owners. Check `svg` folder for iconset license files.
 Everything outside of the `svg` directory is published under MIT license.
 
 [Furkot]:https://trips.furkot.com
-[furkot font]:http://furkot.github.io/icon-fonts/build/furkot.html
+[furkot font]:https://furkot.github.io/icon-fonts/build/furkot.html
 [inkscape]: https://inkscape.org
 [svgo]: https://github.com/svg/svgo
