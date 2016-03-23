@@ -39,13 +39,13 @@
       "multinight",
       "diving",
       "firstlast",
-      "",
+      "airplane",
       "restaurant",
       "fillingstation",
       "motorcycle",
       "farmstand",
       "brewery",
-      "",
+      "amusementpark",
       "wine",
       "bar",
       "grocery",
@@ -95,7 +95,7 @@
       "passthru",
       "tap",
       "minimarket",
-      "",
+      "anchor",
       "tollbooth",
       "hospital",
       "toilets",
@@ -109,7 +109,14 @@
       "coffee",
       "atv",
       "pets",
-      "fire"
+      "fire",
+      "pier",
+      "ferry",
+      "theater",
+      "train",
+      "parking",
+      "cart",
+      "boatramp"
     ]
   }
 }
