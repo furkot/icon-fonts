@@ -36,7 +36,7 @@ To verify SVGs run:
 
     make optimize
 
-It'll merge path, apply transforms and if will attempt to chane the viewport
+It'll merge path, apply transforms and if will attempt to change the viewport
 aspect ratio to square (it will center the path preserving aspect ration). It
 does not work for all SVGs yet, but worth a try. If everything else fails try
 [inkscape] and [svgo].
