@@ -1,4 +1,9 @@
 
+1.2.12 / 2016-03-23
+===================
+
+ * more icons, mostly representing transport options
+
 1.2.11 / 2015-11-21
 ===================
 
