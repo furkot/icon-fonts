@@ -1,4 +1,11 @@
 
+1.2.13 / 2017-02-08
+===================
+
+ * select all icon
+ * sunrise and sunset icons
+ * add bird icon
+
 1.2.12 / 2016-03-23
 ===================
 
