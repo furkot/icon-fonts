@@ -1,4 +1,11 @@
 
+1.2.15 / 2017-05-31
+===================
+
+ * switch to yarn
+ * add instagram icon
+ * fix DOS/Windows line endings
+
 1.2.14 / 2017-04-13
 ===================
 
