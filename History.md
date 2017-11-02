@@ -1,4 +1,10 @@
 
+1.2.18 / 2017-11-02
+===================
+
+ * icons for taxi, bus, entertainment, music
+ * generate path for the film icon
+
 1.2.17 / 2017-10-13
 ===================
 
