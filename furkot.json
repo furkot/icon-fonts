@@ -124,7 +124,31 @@
       "entertain",
       "bus",
       "taxi",
-      "off-road"
+      "off-road",
+      "dam",
+      "danger",
+      "enter",
+      "gift",
+      "hairdresser",
+      "heart",
+      "industry",
+      "laundry",
+      "lighthouse",
+      "one-way",
+      "playground",
+      "police",
+      "prison",
+      "roadblock",
+      "rocket",
+      "school",
+      "shelter",
+      "suitcase",
+      "veterinary",
+      "remove",
+      "wetland",
+      "wheelchair",
+      "golf",
+      "envelope"
     ]
   }
 }
