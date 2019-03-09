@@ -1,10 +1,1 @@
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="64px" height="64px" id="svg2" version="1.1" inkscape:version="0.48.2 r9819" sodipodi:docname="one-way.svg" data-tags="one-way" viewBox="0 0 64 64" style="margin-left: 8px; margin-top: 8px;">
-
-
-
-
-
-
-
-
-  <path d="M 24.00,40.00  m0.00,0.00,0.00,0.00 0.00,23.464 0.00,0.536 5.00,0.00 6.00,0.00 5.00,0.00 0.00-0.536 0.00-19.464 0.00-4.00 -8.00-8.00 0.00,0.00 zM 24.00,0.00  m0.00,0.00,0.00,6.332 0.00,8.332 0.00,5.332 8.00-8.00 8.00,8.00 0.00,0.00 0.00-5.332 0.00-8.332 0.00-6.332 -1.90,0.00 -12.20,0.00 zM 12.00,36.00  m0.00,0.00, 12.00,0.00 8.00-8.00 8.00,8.00 12.00,0.00 -20.00-20.00 z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M192 320 192 320L192 320 192 507.712 192 512 232 512 280 512 320 512 320 507.712 320 352 320 320 256 256 256 256ZM192 0 192 0L192 50.656 192 117.312 192 159.968 256 95.968 320 159.968 320 159.968 320 117.312 320 50.656 320 0 304.8 0 207.2 0ZM96 288 96 288L192 288 256 224 320 288 416 288 256 128Z"/></svg>
