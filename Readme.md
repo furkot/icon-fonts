@@ -1,9 +1,8 @@
-#furkot-icon-fonts
+# furkot-icon-fonts
 
 SVG files and scripts to create icon fonts used by [Furkot] road trip planner
 
-
-# Usage
+## Usage
 
 Install the tools using npm
 
@@ -32,14 +31,13 @@ To verify SVGs run:
 
     make verify
 
-*Experimental* - to optimize non-conforming SVGs:
+To optimize non-conforming SVGs:
 
     make optimize
 
-It'll merge path, apply transforms and if will attempt to change the viewport
-aspect ratio to square (it will center the path preserving aspect ration). It
-does not work for all SVGs yet, but worth a try. If everything else fails try
-[inkscape] and [svgo].
+It'll merge path, apply transforms and if will change the viewport
+aspect ratio to square (it will center the path preserving aspect ration).
+If resulting file needs to be further tweaked try [inkscape] and [svgo].
 
 ## License
 
