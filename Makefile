@@ -40,9 +40,9 @@ demo: build
 deploy: $(LICENSE)
 
 optimize:
-	node lib/optimize.js svg
+	node lib/optimize.js svg ../$(FONT).json
 
 verify:
-	node lib/verify.js svg
+	node lib/verify.js svg ../$(FONT).json
 
 .PHONY: check clean build all demo deploy optimize verify

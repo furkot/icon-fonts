@@ -4,6 +4,7 @@
     "heart": "0xe051"
   },
   "templateOptions": {
+    "iconDim": 512,
     "fontsPath": "fonts/",
     "baseClass": "ff-icon",
     "classPrefix": "ff-icon-",
