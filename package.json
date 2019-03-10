@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/furkot/icon-fonts",
   "dependencies": {
+    "@mapbox/spritezero": "^6.1.0",
     "async": "^1.5.2",
     "el-component": "^1.0.0",
     "find": "^0.1.7",
