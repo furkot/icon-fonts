@@ -16,6 +16,7 @@ descriptors.forEach(function(d) {
     basename = path.basename(filename, '.json'),
     descriptor = require(filename);
 
+  descriptor.filename = filename;
   descriptor.svgPath = path.resolve(dirname, descriptor.svgPath);
   generate(basename, version, descriptor);
 });

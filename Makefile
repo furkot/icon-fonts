@@ -21,6 +21,9 @@ clean:
 build/fonts:
 	mkdir -p $@
 
+build/sprite:
+	mkdir -p $@
+
 build/fonts/%: build/%
 	mv $< $@
 
@@ -31,7 +34,7 @@ build/$(FONT).%: index.js $(SVG_FILES)
 $(LICENSE): $(LICENSE_FILES)
 	awk 'FNR==1{print ""}1' $^ > $@
 
-build: build/fonts $(FONT_FILES) build/$(FONT).less build/$(FONT).html
+build: build/fonts build/sprite $(FONT_FILES) build/$(FONT).less build/$(FONT).html
 
 demo: build
 	$(NODE_BIN)/lessc build/$(FONT).less build/$(FONT).css
