@@ -233,7 +233,7 @@
       "sciencemuseum",
       "landmark:monument",
       "historymuseum",
-      "forest:garden",
+      "forest:park",
       "surfing",
       "park:ranger_station",
       "structure",
@@ -362,7 +362,8 @@
       "tennis:tennis",
       "triangle:triangle",
       "triangle_stroked:triangle_stroked",
-      "warehouse:warehouse"
+      "warehouse:warehouse",
+      "garden:garden"
     ]
   }
 }
