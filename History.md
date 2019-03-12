@@ -1,4 +1,13 @@
 
+2.0.0 / 2019-03-11
+==================
+
+ * fix Makefile so that we only run generate once
+ * demo pages for sprites
+ * generate sprites with map icons
+ * optimize and scale icons
+ * generate icon paths as JSON
+
 1.2.24 / 2019-01-07
 ===================
 
