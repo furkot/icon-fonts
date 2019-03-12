@@ -21,6 +21,7 @@ To view generated icons in the browser
 It is used to generate:
 
 - [furkot font] - used in buttons and markers on the furkot map
+- [furkot sprites] - used in furkot map
 
 In order to add new icons drop SVG anywhere in the `svg/furkot` directory:
 - SVG file name needs to be unique
@@ -48,5 +49,6 @@ Everything outside of the `svg` directory is published under MIT license.
 
 [Furkot]:https://trips.furkot.com
 [furkot font]:https://furkot.github.io/icon-fonts/build/furkot.html
+[furkot sprites]:https://furkot.github.io/icon-fonts/build/sprite-streets.html
 [inkscape]: https://inkscape.org
 [svgo]: https://github.com/svg/svgo
