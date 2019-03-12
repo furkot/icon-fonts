@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{spriteName}}</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 10px 20px;
+    }
+
+    .preview {
+      display: inline-block;
+      vertical-align: top;
+      margin: 2px;
+    }
+
+    .preview_label {
+      font-size: 10px;
+      display: inline-block;
+      white-space: nowrap;
+      max-width: 58px;
+      overflow: hidden;
+      min-width: 100%;
+      text-align: center;
+    }
+
+    .preview_sprite {
+      background-color: rgba(0, 0, 0, .05);
+      vertical-align: top;
+      padding: 5px;
+      height: 48px;
+      min-width: 48px;
+      overflow-y: hidden;
+    }
+
+    .sprite {
+      background-image: url('{{spriteSrc}}');
+      background-repeat: no-repeat;
+      margin: 0 auto;
+    }
+
+    {{#each images}}
+    .{{this.name}} {
+      background-position: {{this.position}};
+      width: {{this.width}};
+      height: {{this.height}};
+    }
+    {{/each}}
+  </style>
+</head>
+<body>
+  <h1>{{spriteName}}</h1>
+  {{#each images}}
+  <div class="preview">
+    <span class="preview_label">{{this.name}}</span>
+    <div class="preview_sprite">
+      <div class="{{this.name}} sprite"></div>
+    </div>
+  </div>
+  {{/each}}
+  </div>
+</body>
+</html>
