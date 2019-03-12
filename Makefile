@@ -1,9 +1,9 @@
 NODE_BIN = ./node_modules/.bin
 FONT = furkot
 
-
 FONT_TYPES = woff ttf
-FONT_FILES = $(patsubst %, build/fonts/$(FONT).%,$(FONT_TYPES))
+FONT_INTERMEDIATE_FILES = $(patsubst %, build/$(FONT).%, $(FONT_TYPES))
+FONT_FILES = $(patsubst %, build/fonts/$(FONT).%, $(FONT_TYPES))
 
 SVG_FILES = $(shell find svg/$(FONT) -name '*.svg')
 LICENSE_FILES = $(shell find svg/$(FONT) -name 'License.md')
@@ -18,23 +18,25 @@ check:
 clean:
 	rm -rf build
 
-build/fonts:
-	mkdir -p $@
-
-build/sprite:
+build/fonts build/sprite:
 	mkdir -p $@
 
 build/fonts/%: build/%
 	mv $< $@
 
-build/$(FONT).%: index.js $(SVG_FILES)
+$(FONT_INTERMEDIATE_FILES) build/$(FONT).less build/$(FONT).html: build.intermediate
+
+.SECONDARY: $(FONT_INTERMEDIATE_FILES)
+.INTERMEDIATE: build.intermediate
+
+build.intermediate: index.js $(SVG_FILES) $(FONT).json | build/fonts build/sprite
 	node index.js $(FONT).json
 	mv build/$(FONT).css build/$(FONT).less
 
 $(LICENSE): $(LICENSE_FILES)
 	awk 'FNR==1{print ""}1' $^ > $@
 
-build: build/fonts build/sprite $(FONT_FILES) build/$(FONT).less build/$(FONT).html
+build: $(FONT_FILES) build/$(FONT).less build/$(FONT).html 
 
 demo: build
 	$(NODE_BIN)/lessc build/$(FONT).less build/$(FONT).css
