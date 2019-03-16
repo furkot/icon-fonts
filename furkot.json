@@ -172,6 +172,7 @@
           "bus",
           "car",
           "charging_station",
+          "diesel_fuel",
           "entrance",
           "ferry",
           "fuel",
@@ -364,7 +365,8 @@
       "triangle:triangle",
       "triangle_stroked:triangle_stroked",
       "warehouse:warehouse",
-      "garden:garden"
+      "garden:garden",
+      "diesel:diesel_fuel"
     ]
   }
 }
