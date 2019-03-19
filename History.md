@@ -1,4 +1,12 @@
 
+2.0.3 / 2019-03-18
+==================
+
+ * output list of icons as JSON
+ * icon for ethanol-free fuel
+ * icon for diesel fuel
+ * redesign fuel icons
+
 2.0.2 / 2019-03-16
 ==================
 
