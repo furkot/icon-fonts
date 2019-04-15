@@ -7,8 +7,8 @@
 @font-face {
   font-family: "{{fontName}}";
   src:
-    url("{{fontsPath}}{{fontName}}.woff") format("woff"),
-    url("{{fontsPath}}{{fontName}}.ttf") format("truetype");
+    url("{{fontsPath}}{{fontName}}.woff2") format("woff2"),
+    url("{{fontsPath}}{{fontName}}.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -26,7 +26,7 @@
 {{#each codepoints}}
 .{{../classPrefix}}{{@key}},
 {{/each}}
-.{{baseClass}} {
+.{{baseSelector}} {
   font-family: {{fontName}} !important;
   @icon-font-styles();
 }
@@ -38,7 +38,7 @@
 {{/each}}
 
 {{#if alias}}
-.alias-{{baseClass}}(@char) {
+.alias-{{baseSelector}}(@char) {
   &:before {
     @icon-font-styles();
     font-family: {{fontName}} !important;
@@ -48,7 +48,7 @@
 
 {{#each alias}}
 {{@key}} {
-  .alias-{{../baseClass}}("\\{{lookup ../codepoints this}}");
+  .alias-{{../baseSelector}}("\\{{lookup ../codepoints this}}");
 }
 {{/each}}
 {{/if}}
