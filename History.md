@@ -1,4 +1,13 @@
 
+2.1.0 / 2019-04-16
+==================
+
+ * make off-road icon bigger
+ * fix optimize after upgrading async module
+ * generate woff2 instead of ttf fonts
+ * optimize svg files
+ * update dependencies
+
 2.0.4 / 2019-04-11
 ==================
 
