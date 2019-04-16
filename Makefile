@@ -1,7 +1,7 @@
 NODE_BIN = ./node_modules/.bin
 FONT = furkot
 
-FONT_TYPES = woff ttf
+FONT_TYPES = woff woff2
 FONT_INTERMEDIATE_FILES = $(patsubst %, build/$(FONT).%, $(FONT_TYPES))
 FONT_FILES = $(patsubst %, build/fonts/$(FONT).%, $(FONT_TYPES))
 
@@ -36,7 +36,7 @@ build.intermediate: index.js $(SVG_FILES) $(FONT).json | build/fonts build/sprit
 $(LICENSE): $(LICENSE_FILES)
 	awk 'FNR==1{print ""}1' $^ > $@
 
-build: $(FONT_FILES) build/$(FONT).less build/$(FONT).html 
+build: $(FONT_FILES) build/$(FONT).less build/$(FONT).html
 
 demo: build
 	$(NODE_BIN)/lessc build/$(FONT).less build/$(FONT).css

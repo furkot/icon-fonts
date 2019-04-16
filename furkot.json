@@ -6,7 +6,7 @@
   "templateOptions": {
     "iconDim": 512,
     "fontsPath": "fonts/",
-    "baseClass": "ff-icon",
+    "baseSelector": "ff-icon",
     "classPrefix": "ff-icon-",
     "alias": {
       ".auth-icon-facebook": "facebook-2",
