@@ -20,7 +20,7 @@
     "sprite": [{
       "name": "sprite-streets",
       "size": [11, 15],
-      "pixelRatio": [1, 2, 4],
+      "pixelRatio": [1, 2, 3],
       "pattern": {
         "fill": "#725a50",
         "margin": 2,
