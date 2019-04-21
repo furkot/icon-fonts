@@ -190,26 +190,49 @@
           "taxi",
           "toll_booth"
         ]
+      }, {
+        "pattern": {
+          "fill": "#fff",
+          "backdrop": [{
+            "fill": "#725a50"
+          }]
+        },
+        "icons": [
+          "alpine_hut",
+          "apartment",
+          "bed_and_breakfast",
+          "campsite",
+          "camp_site",
+          "caravan_site",
+          "chain",
+          "chalet",
+          "deal",
+          "guest_house",
+          "hostel",
+          "hotel",
+          "lodging",
+          "motel"
+        ]
       }]
     }],
     "paths": [
-      "hotel:lodging",
+      "hotel:hotel,lodging,motel",
       "stop",
       "hiking",
       "guide",
       "snowshoeing",
       "book",
-      "deal:bank",
+      "deal:bank,deal",
       "pin",
       "biking:bicycle,bicycle_rental",
       "picnic:picnic_site",
       "charging:charging_station",
-      "tent:campsite",
-      "house",
+      "tent:campsite,camp_site",
+      "house:apartment,bed_and_breakfast,chalet,guest_house",
       "climbing",
       "skiing:skiing",
-      "hostel",
-      "chain",
+      "hostel:hostel",
+      "chain:chain",
       "car:car",
       "first",
       "last",
@@ -277,7 +300,7 @@
       "hospital:hospital",
       "toilets:toilets",
       "truck",
-      "rvpark",
+      "rvpark:caravan_site",
       "bridge",
       "star:star",
       "treasure",
@@ -318,7 +341,7 @@
       "roadblock:roadblock",
       "rocket:rocket",
       "school:school",
-      "shelter:shelter",
+      "shelter:alpine_hut,shelter",
       "suitcase:suitcase",
       "veterinary:veterinary",
       "remove:waste_basket",
