@@ -1,4 +1,12 @@
 
+2.1.1 / 2019-04-23
+==================
+
+ * invert color for lodging sprite icons
+ * fix sprite icons
+ * generate multiple sprite icons from one svg icon
+ * generate sprite icons in sizes 1x, 2x, 3x
+
 2.1.0 / 2019-04-16
 ==================
 
