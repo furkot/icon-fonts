@@ -9,6 +9,7 @@ SVG_FILES = $(shell find svg/$(FONT) -name '*.svg')
 LICENSE_FILES = $(shell find svg/$(FONT) -name 'License.md')
 
 LICENSE=build/icon-license.md
+LICENSE_HTML=build/icon-license.html
 
 all: check build
 
@@ -43,6 +44,7 @@ demo: build
 	xdg-open build/$(FONT).html
 
 deploy: $(LICENSE)
+	$(NODE_BIN)/marked -o $(LICENSE_HTML) < $(LICENSE)
 
 optimize:
 	node lib/optimize.js svg/furkot ../$(FONT).json
