@@ -1,4 +1,10 @@
 
+2.1.2 / 2019-05-20
+==================
+
+ * add link to icon licenses
+ * remove empty icon name
+
 2.1.1 / 2019-04-23
 ==================
 
