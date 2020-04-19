@@ -1,4 +1,13 @@
 
+2.1.3 / 2020-04-19
+==================
+
+ * directory icon
+ * crowdsource icon
+ * highlighter icon
+ * remove deprecated `speak` CSS property
+ * upgrade dependencies
+
 2.1.2 / 2019-05-20
 ==================
 
