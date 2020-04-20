@@ -270,7 +270,7 @@
       "structure",
       "naturalfeature",
       "outdoors",
-      "watersport:swimming",
+      "watersport",      
       "scenicroad",
       "beach",
       "hotspring",
@@ -395,7 +395,8 @@
       "warehouse:warehouse",
       "garden:garden",
       "diesel:diesel_fuel",
-      "ethanol-free:ethanol_free_fuel"
+      "ethanol-free:ethanol_free_fuel",
+      "swimming:swimming"
     ]
   }
 }
