@@ -36,14 +36,11 @@ To optimize non-conforming SVGs:
 
     make optimize
 
-It'll merge path, apply transforms and if will change the viewport
-aspect ratio to square (it will center the path preserving aspect ration).
-If resulting file needs to be further tweaked try [inkscape] and [svgo].
+It'll merge path, apply transforms and change the viewport aspect ratio to square (it will center the path preserving aspect ration). If resulting file needs to be further tweaked try [inkscape] and [svgo].
 
 ## License
 
-All files in `svg` directory are published under the licenses provided by
-their owners. Check `svg` folder for iconset license files.
+All files in `svg` directory are published under the licenses provided by their owners. Check `svg` folder for iconset license files.
 
 Everything outside of the `svg` directory is published under MIT license.
 
