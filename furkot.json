@@ -396,7 +396,25 @@
       "garden:garden",
       "diesel:diesel_fuel",
       "ethanol-free:ethanol_free_fuel",
-      "swimming:swimming"
+      "swimming:swimming",
+      "question",
+      "as3112",
+      "bs1363",
+      "cee_blue",
+      "chademo",
+      "commando",
+      "nema_14_50",
+      "nema_5_20",
+      "schuko",
+      "tesla_roadster",
+      "tesla_standard",
+      "tesla_supercharger",
+      "three_phase",
+      "type1",
+      "type1_combo",
+      "type2",
+      "type2_combo",
+      "type3"
     ]
   }
 }
