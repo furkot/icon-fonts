@@ -1,2 +1,2 @@
-[OCHA Humanitarian Icons](http://thenounproject.com/ochaavmu/collection/ocha-humanitarian-icons)
-[Public Domain](http://creativecommons.org/publicdomain/mark/1.0/)
+Icons made by [OCHA Visual](https://thenounproject.com/ochavisual/) from [Noun Project](https://thenounproject.com/)
+[Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)

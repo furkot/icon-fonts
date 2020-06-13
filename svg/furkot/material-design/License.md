@@ -1,2 +1,2 @@
-Icons made by [Google](http://www.google.com) from [www.flaticon.com](http://www.flaticon.com)
-[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+Icons made by [Google](https://www.flaticon.com/authors/google) from [www.flaticon.com](https://www.flaticon.com)
+[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)

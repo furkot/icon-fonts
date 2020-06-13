@@ -1,2 +1,2 @@
-Icons made by [Yannick](http://www.flaticon.com/authors/yannick) from [www.flaticon.com](http://www.flaticon.com)
-[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+Icons made by [Yannick](http://yannicklung.com/) from [icon-icons.com](https://icon-icons.com/)
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)

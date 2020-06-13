@@ -1,2 +1,2 @@
-[Meteocons](http://www.alessioatzeni.com/meteocons)
-[Proprietary](http://www.alessioatzeni.com/meteocons/#about)
+Icon set [Meteocons](https://www.alessioatzeni.com/meteocons/)
+[Free License](https://www.alessioatzeni.com/meteocons/#about)

@@ -1,2 +1,2 @@
-Icons made by [Icons8](http://www.flaticon.com/authors/icons8) from [www.flaticon.com](http://www.flaticon.com)
-[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+Icons made by [Icons8](https://icons8.com/icons) from [www.flaticon.com](https://www.flaticon.com)
+[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
