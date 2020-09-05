@@ -49,7 +49,12 @@ deploy: $(LICENSE)
 optimize:
 	node lib/optimize.js svg/furkot ../$(FONT).json
 
+%.svg.pk: %.svg
+	svgcleaner $< $<
+
+pack: $(SVG_FILES:%.svg=%.svg.pk)
+
 verify:
 	node lib/verify.js svg/furkot ../$(FONT).json
 
-.PHONY: check clean build all demo deploy optimize verify
+.PHONY: check clean build all demo deploy optimize pack verify
