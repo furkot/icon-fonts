@@ -1,1 +1,1 @@
-<svg width="512" height="512" viewBox="0 0 512 512" data-tags="enter, sign in, log in, login" style="margin-left:2px;margin-top:2px"><path d="M 224,383.968L 352,256L 224,128.032L 224,192L0,192L0,320L 224,320 zM 128,0L 128,128L 160,128L 160,32L 416,32L 416,480L 160,480L 160,384L 128,384L 128,512L 512,512L 512,0 z"/></svg>
+<svg height="512" viewBox="0 0 512 512" width="512"><path d="m224 383.968 128-127.968-128-127.968v63.968h-224v128h224zm-96-383.968v128h32v-96h256v448h-256v-96h-32v128h384v-512z"/></svg>
