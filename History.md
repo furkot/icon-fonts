@@ -1,4 +1,14 @@
 
+2.2.0 / 2020-09-11
+==================
+
+ * electric sockets
+ * clean up licenses
+ * typo in Readme
+ * clean svg files with svgcleaner
+ * task to clean and pack svg files
+ * optimize unoptimized icons
+
 2.1.4 / 2020-04-21
 ==================
 
