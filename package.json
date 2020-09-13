@@ -1,6 +1,6 @@
 {
   "name": "furkot-icon-fonts",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "SVG files and scripts to create icon fonts used by furkot trip planner",
   "main": "index.js",
   "scripts": {
