@@ -22,7 +22,7 @@
   "dependencies": {
     "@darthsoup/webfonts-generator": "^0.5.1",
     "@mapbox/spritezero": "^6.2.0",
-    "async": "~2",
+    "async": "~3",
     "el-component": "^1.0.0",
     "find": "^0.1.7",
     "handlebars": "~4",
