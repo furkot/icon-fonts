@@ -38,10 +38,10 @@
   resolved "https://registry.yarnpkg.com/@mapbox/shelf-pack/-/shelf-pack-3.0.0.tgz#44e284c8336eeda1e9dbbb1d61954c70e26e5766"
   integrity sha1-ROKEyDNu7aHp27sdYZVMcOJuV2Y=
 
-"@mapbox/spritezero@^6.2.0":
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/@mapbox/spritezero/-/spritezero-6.3.0.tgz#fb80a5035e53944701bc780b289187f3a8ea60d1"
-  integrity sha512-aHEgCW36wC9/wwMxpuCqjzE1avnpxc7zUqdOPKKPTebxnHbd0S5WgtHJxVrUT2ZIs/YTEnPdCBhB+bbNE+p78Q==
+"@mapbox/spritezero@~8":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@mapbox/spritezero/-/spritezero-8.0.0.tgz#31610d72c8857ed42d47f7e404788a32635a6ce0"
+  integrity sha512-psL/eim7mI5bRUo4wJIDGig7y1FMm5Ohe85getBr0zBF3nu/2bgOACeWAljlxnGsReKUAb1pGqNcUe8mOyReig==
   dependencies:
     "@mapbox/shelf-pack" "~3.0.0"
     json-stable-stringify "^1.0.1"
