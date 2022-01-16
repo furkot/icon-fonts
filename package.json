@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/furkot/icon-fonts",
   "dependencies": {
-    "@darthsoup/webfonts-generator": "^0.5.1",
+    "@furkot/webfonts-generator": "~1",
     "@mapbox/spritezero": "~8",
     "async": "~3",
     "el-component": "^1.0.0",
