@@ -1,4 +1,10 @@
 
+2.3.0 / 2022-01-16
+==================
+
+ * replace webfonts-generator
+ * upgrade dependencies
+
 2.2.1 / 2020-09-13
 ==================
 
