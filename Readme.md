@@ -1,3 +1,6 @@
+[![NPM version][npm-image]][npm-url]
+[![Dependency Status][deps-image]][deps-url]
+
 # furkot-icon-fonts
 
 SVG files and scripts to create icon fonts used by [Furkot] road trip planner
@@ -49,3 +52,9 @@ Everything outside of the `svg` directory is published under MIT license.
 [furkot sprites]:https://furkot.github.io/icon-fonts/build/sprite-streets.html
 [inkscape]: https://inkscape.org
 [svgo]: https://github.com/svg/svgo
+
+[npm-image]: https://img.shields.io/npm/v/furkot-icon-fonts.svg
+[npm-url]: https://npmjs.org/package/furkot-icon-fonts
+
+[deps-image]: https://img.shields.io/librariesio/release/npm/furkot-icon-fonts
+[deps-url]: https://libraries.io/npm/furkot-icon-fonts
