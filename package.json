@@ -36,5 +36,11 @@
   },
   "devDependencies": {
     "marked": "~4"
-  }
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "svg",
+    "templates"
+  ]
 }
