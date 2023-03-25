@@ -53,7 +53,7 @@ Everything outside of the `svg` directory is published under MIT license.
 [inkscape]: https://inkscape.org
 [svgo]: https://github.com/svg/svgo
 
-[npm-image]: https://img.shields.io/npm/v/furkot-icon-fonts.svg
+[npm-image]: https://img.shields.io/npm/v/furkot-icon-fonts
 [npm-url]: https://npmjs.org/package/furkot-icon-fonts
 
 [deps-image]: https://img.shields.io/librariesio/release/npm/furkot-icon-fonts
