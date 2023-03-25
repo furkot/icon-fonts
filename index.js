@@ -1,5 +1,4 @@
-var argv = require('minimist')(process.argv.slice(2));
-var descriptors = argv._;
+var descriptors = process.argv.slice(2);
 var generate = require('./lib/generate');
 var version = require('./package.json').version;
 var path = require('path');
