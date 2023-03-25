@@ -25,7 +25,7 @@
     "xmljson": "^0.2.0"
   },
   "devDependencies": {
-    "jshint": "^2.6.0",
+    "jshint": "^2.13.6",
     "marked": "~4"
   },
   "files": [
