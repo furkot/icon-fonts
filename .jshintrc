@@ -5,5 +5,5 @@
   "laxcomma": true,
   "proto": true,
   "node": true,
-  "esversion": 8
+  "esversion": 11
 }
