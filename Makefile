@@ -48,6 +48,7 @@ deploy: $(LICENSE)
 
 optimize:
 	node lib/optimize.js svg/furkot ../$(FONT).json
+	node lib/optimize.js --no-rescale svg/sprite/sprite-streets
 
 %.svg.pk: %.svg
 	svgcleaner $< $<
