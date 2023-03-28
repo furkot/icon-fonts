@@ -13,14 +13,13 @@
   "homepage": "https://github.com/furkot/icon-fonts",
   "dependencies": {
     "@furkot/webfonts-generator": "~1",
-    "@mapbox/shelf-pack": "^3.2.0",
+    "@mapwhit/spriteone": "^0.1.0",
     "async": "~3",
     "el-component": "^1.0.0",
     "find": "^0.1.7",
     "handlebars": "~4",
     "less": "~4",
     "lodash": "~4",
-    "sharp": "^0.32.0",
     "svgo": "~3",
     "svgpath": "~2",
     "xmljson": "^0.2.0"
