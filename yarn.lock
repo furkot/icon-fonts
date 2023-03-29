@@ -19,6 +19,14 @@
   resolved "https://registry.yarnpkg.com/@mapbox/shelf-pack/-/shelf-pack-3.2.0.tgz#df3630ecce8c042817c9a365b88078412963de64"
   integrity sha512-dyQxe6ukILV6qaEvxoKCIwhblgRjYp1ZGlClo4xvfbmxzFO5LYu7Tnrg2AZrRgN7VsSragsGcNjzUe9kCdKHYQ==
 
+"@mapwhit/spriteone@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@mapwhit/spriteone/-/spriteone-0.1.0.tgz#ce11e155fcb271cbe080271a3eca956926a3f963"
+  integrity sha512-EXf9Y67aREJAd/UG0rrx9rcFBuBmBdVttEYya6+N3dV694CjkBcMtrfATG9e3/mpamJDvwn8XPcU2Ati2oEgHQ==
+  dependencies:
+    "@mapbox/shelf-pack" "^3.2.0"
+    sharp "^0.32.0"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
