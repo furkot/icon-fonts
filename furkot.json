@@ -11,7 +11,7 @@
     "alias": {
       ".auth-icon-facebook": "facebook-2",
       ".auth-icon-foursquare": "foursquare",
-      ".auth-icon-google": "google-plus-2",
+      ".auth-icon-google": "google-plus",
       ".auth-icon-tripit": "tripit",
       ".auth-icon-twitter": "twitter",
       ".icon-back": "arrow-left"
