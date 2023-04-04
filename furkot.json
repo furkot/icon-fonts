@@ -5,6 +5,7 @@
   },
   "templateOptions": {
     "iconDim": 512,
+    "iconScaleFactor": 42,
     "fontsPath": "fonts/",
     "baseSelector": "ff-icon",
     "classPrefix": "ff-icon-",

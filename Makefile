@@ -13,11 +13,18 @@ LICENSE_HTML=build/icon-license.html
 
 all: check build
 
-check:
+check: lint test
+
+lint:
 	$(NODE_BIN)/jshint index.js lib
+
+test:
+	node --test
 
 clean:
 	rm -rf build
+
+.PHONY: all check lint test
 
 build/fonts build/sprite:
 	mkdir -p $@
@@ -58,4 +65,4 @@ pack: $(SVG_FILES:%.svg=%.svg.pk)
 verify:
 	node lib/verify.js svg/furkot ../$(FONT).json
 
-.PHONY: check clean build all demo deploy optimize pack verify
+.PHONY: clean build demo deploy optimize pack verify
