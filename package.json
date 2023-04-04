@@ -12,7 +12,7 @@
   "license": "MIT",
   "homepage": "https://github.com/furkot/icon-fonts",
   "dependencies": {
-    "@furkot/webfonts-generator": "~1",
+    "@furkot/webfonts-generator": "~2",
     "@mapwhit/spriteone": "^0.1.0",
     "async": "~3",
     "el-component": "^1.0.0",
