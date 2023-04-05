@@ -41,6 +41,12 @@ To optimize non-conforming SVGs:
 
 It'll merge path, apply transforms and change the viewport aspect ratio to square (it will center the path preserving aspect ration). If resulting file needs to be further tweaked try [inkscape] and [svgo].
 
+To reduce size of SVGs:
+
+    make pack
+
+It'll remove unused elements and reformat path to reduce file size.
+
 ## License
 
 All files in `svg` directory are published under the licenses provided by their owners. Check `svg` folder for iconset license files.
