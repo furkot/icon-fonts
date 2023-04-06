@@ -1,2 +1,2 @@
-Icons made by [Google](https://www.flaticon.com/authors/google) from [www.flaticon.com](https://www.flaticon.com)
-[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+[Icons](https://github.com/furkot/icon-fonts/tree/main/svg/furkot/material-design) by [Google Material Design](https://github.com/google/material-design-icons) from [Iconify](https://iconify.design/). The original work has been [modified](https://github.com/furkot/icon-fonts/tree/main/svg/furkot/material-design)
+[Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)

@@ -45,13 +45,18 @@
 			display: inline-block;
 			font-size: 16px;
 		}
+
+		.stop-path {
+			border-bottom: solid chocolate;
+		}
+
 	</style>
 </head>
 <body>
 	<h1>{{fontName}}</h1>
 	{{#each names}}
 	<div class="preview">
-		<span class="preview__icon">
+		<span class="preview__icon {{stopPathClass this}}">
 			<span class="{{../classPrefix}}{{this}}"></span>
 		</span>
 		<span class="preview__label">{{this}}</span>
