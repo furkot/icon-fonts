@@ -1,4 +1,19 @@
 
+2.4.0 / 2023-04-06
+==================
+
+ * redraw icons for bolder more angular look
+ * re-organize source svg icons
+ * use @mapwhit/spriteone to generate sprite
+ * render sprites for all pixel ratios in one shot
+ * optimize svgo to 3.0.2
+ * promisify optimize code
+ * use sharp to render images
+ * modify API
+ * replace spritezero
+ * stop using minimist to parse args
+ * update webfonts-generator
+
 2.3.0 / 2022-01-16
 ==================
 
