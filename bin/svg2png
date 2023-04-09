@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+const sharp = require('sharp');
+
+process.argv.slice(2).forEach(convert);
+
+function convert(from) {
+  const to = from.replace(/svg$/, 'png');
+  sharp(from)
+    .png()
+    .toFile(to)
+    .catch(console.error);
+}
+
