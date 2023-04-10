@@ -145,21 +145,7 @@
             "backdrop": []
           },
           "icons": [
-            "building",
-            "circle-stroked",
-            "circle",
-            "commercial",
-            "cross",
-            "dam",
-            "industry",
-            "marker",
-            "square-stroke",
-            "square",
-            "star-stroke",
-            "star",
-            "triangle",
-            "triangle_stroked",
-            "warehouse"
+            "triangle_stroked"
           ]
         }, {
           "pattern": {
@@ -217,12 +203,16 @@
             }]
           },
           "icons": [
+            "building",
             "castle",
             "cemetery",
             "church",
             "college",
+            "commercial",
+            "dam",
             "embassy",
             "envelope",
+            "industry",
             "info_pin",
             "lake",
             "library",
@@ -245,6 +235,7 @@
             "tap",
             "toilets",
             "town_hall",
+            "warehouse",
             "wheelchair"
           ]
         }]
@@ -291,7 +282,6 @@
         "hotel": "hotel",
         "information": "info_pin",
         "lodging": "hotel",
-        "marker": "pin",
         "monument": "landmark",
         "motel": "hotel",
         "park": "forest",
