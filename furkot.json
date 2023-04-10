@@ -218,6 +218,45 @@
           "lodging",
           "motel"
         ]
+      }, {
+        "pattern": {
+          "fill": "#725a50",
+          "backdrop": [{
+            "fill": "#725a50"
+          }, {
+          }]
+        },
+        "icons": [
+          "castle",
+          "cemetery",
+          "college",
+          "drinking_water",
+          "embassy",
+          "information",
+          "lake",
+          "library",
+          "lighthouse",
+          "monument",
+          "museum",
+          "place_of_worship",
+          "police",
+          "post",
+          "prison",
+          "ranger_station",
+          "religious_christian",
+          "religious_jewish",
+          "religious_muslim",
+          "river",
+          "roadblock",
+          "rocket",
+          "school",
+          "shelter",
+          "telephone",
+          "toilets",
+          "town_hall",
+          "waste_basket",
+          "wheelchair"
+        ]
       }]
     }],
     "paths": [
