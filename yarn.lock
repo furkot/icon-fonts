@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@furkot/webfonts-generator@~1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@furkot/webfonts-generator/-/webfonts-generator-1.0.2.tgz#4c862fd4a91ecfefddfd04ba075cbd288ac4a8d0"
-  integrity sha512-GBhVfsbEU+l+2wQZklAo57sQa0HOjfRLxgRAoEpGvFEM5sEH5lyjdqlmEqAoo34/qOnRwDRhIzpR9sKullbbrQ==
+"@furkot/webfonts-generator@~2":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@furkot/webfonts-generator/-/webfonts-generator-2.0.0.tgz#4575ca36483389aae39b693518fe0acf1c38c0af"
+  integrity sha512-mwQIU1v19/zS9+PGfyBGhmoXh3y/L9VI8pfQDQgEvzHj2XsHNTmAbLpcOMeun7Ua7ie1fklgkJaPshg+tDJ/uA==
   dependencies:
     handlebars "^4.1.2"
     lodash "^4.17.20"

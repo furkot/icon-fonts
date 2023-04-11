@@ -1,7 +1,7 @@
-var descriptors = process.argv.slice(2);
-var generate = require('./lib/generate');
-var version = require('./package.json').version;
-var path = require('path');
+const descriptors = process.argv.slice(2);
+const generate = require('./lib/generate');
+const version = require('./package.json').version;
+const path = require('path');
 
 
 if (descriptors.length < 1) {
@@ -9,13 +9,16 @@ if (descriptors.length < 1) {
   process.exit(1);
 }
 
-descriptors.forEach(function(d) {
-  var filename = path.resolve(__dirname, d),
-    dirname = path.dirname(filename),
-    basename = path.basename(filename, '.json'),
-    descriptor = require(filename);
+descriptors.forEach(d => {
+  const filename = path.resolve(__dirname, d);
+  const dirname = path.dirname(filename);
+  const basename = path.basename(filename, '.json');
+  const descriptor = require(filename);
 
   descriptor.filename = filename;
   descriptor.svgPath = path.resolve(dirname, descriptor.svgPath);
-  generate(basename, version, descriptor);
+  generate(basename, version, descriptor).catch(error => {
+    console.log('Fail!', error);
+    process.exit(1);
+  });
 });
