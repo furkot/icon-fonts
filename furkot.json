@@ -15,6 +15,240 @@
       "auth-icon-tripit": "tripit",
       "auth-icon-twitter": "twitter",
       "icon-back": "arrow-left"
+
+    },
+    "colorScheme": {
+      "colors": {
+        "pattern": {
+          "fill": "#725a50",
+          "margin": 86,
+          "backdrop": [{
+            "name": "backdrop/shield",
+            "fill": "#725a50"
+          }, {
+            "name": "backdrop/background",
+            "fill": "#fff"
+          }]
+        },
+        "iconGroups": [{
+          "pattern": {
+            "fill": "#5d60be",
+            "backdrop": [{
+              "fill": "#5d60be"
+            }, {
+            }]
+          },
+          "icons": [
+            "aquarium",
+            "amusementpark",
+            "artmuseum",
+            "attraction",
+            "bank",
+            "biking",
+            "cart",
+            "clothing_store",
+            "film",
+            "gift",
+            "grocery",
+            "hairdresser",
+            "laundry",
+            "music",
+            "pets",
+            "playground",
+            "stadium",
+            "suitcase",
+            "theater",
+            "zoo"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#d97200",
+            "backdrop": [{
+              "fill": "#d97200"
+            }, {
+            }]
+          },
+          "icons": [
+            "alcohol_shop",
+            "bakery",
+            "bar",
+            "brewery",
+            "butcher",
+            "coffee",
+            "fast_food",
+            "ice_cream",
+            "restaurant",
+            "sushi"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#76a723",
+            "backdrop": [{
+              "fill": "#76a723"
+            }, {
+            }]
+          },
+          "icons": [
+            "american_football",
+            "baseball",
+            "basketball",
+            "cricket",
+            "golf",
+            "pitch",
+            "skiing",
+            "soccer",
+            "swimming",
+            "tennis",
+            "water"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#76a723",
+            "backdrop": [{
+              "fill": "#76a723"
+            }, {
+            }]
+          },
+          "icons": [
+            "forest",
+            "garden",
+            "mountain",
+            "picnic",
+            "volcano",
+            "wetland"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#ba3827",
+            "backdrop": [{
+              "fill": "#ba3827"
+            }, {
+            }]
+          },
+          "icons": [
+            "danger",
+            "dentist",
+            "doctor",
+            "fire",
+            "heart",
+            "hospital",
+            "pharmacy",
+            "veterinary"
+          ]
+        }, {
+          "size": {
+            "11": 11,
+            "15": 15
+          },
+          "pattern": {
+            "margin": 0,
+            "backdrop": []
+          },
+          "icons": [
+            "building",
+            "circle-stroked",
+            "circle",
+            "commercial",
+            "cross",
+            "dam",
+            "industry",
+            "marker",
+            "square-stroke",
+            "square",
+            "star-stroke",
+            "star",
+            "triangle",
+            "triangle_stroked",
+            "warehouse"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#fff",
+            "backdrop": [{
+              "fill": "#4898ff"
+            }]
+          },
+          "icons": [
+            "aerialway",
+            "airfield",
+            "airplane",
+            "anchor",
+            "bus",
+            "car",
+            "charging",
+            "diesel",
+            "entrance",
+            "ethanol-free",
+            "ferry",
+            "ferry_terminal",
+            "fillingstation",
+            "heliport",
+            "parking",
+            "parking_garage",
+            "rail_light",
+            "rail_metro",
+            "taxi",
+            "tollbooth",
+            "train"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#fff",
+            "backdrop": [{
+              "fill": "#725a50"
+            }]
+          },
+          "icons": [
+            "alpine_hut",
+            "chain",
+            "deal",
+            "hostel",
+            "hotel",
+            "house",
+            "rvpark",
+            "tent"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#725a50",
+            "backdrop": [{
+              "fill": "#725a50"
+            }, {
+            }]
+          },
+          "icons": [
+            "castle",
+            "cemetery",
+            "church",
+            "college",
+            "embassy",
+            "envelope",
+            "info_pin",
+            "lake",
+            "library",
+            "lighthouse",
+            "landmark",
+            "museum",
+            "park",
+            "phone",
+            "place_of_worship",
+            "police",
+            "prison",
+            "remove",
+            "river",
+            "roadblock",
+            "rocket",
+            "school",
+            "shelter",
+            "shrine",
+            "synagogue",
+            "tap",
+            "toilets",
+            "town_hall",
+            "wheelchair"
+          ]
+        }]
+      }
     },
     "svgSpritePath": "svg/sprite",
     "sprite": [{
@@ -42,16 +276,19 @@
         "chalet": "house",
         "charging_station": "charging",
         "cinema": "film",
+        "deal": "deal",
         "diesel_fuel": "diesel",
         "doctors": "doctor",
         "dog_park": "pets",
         "drinking_water": "tap",
         "ethanol_free_fuel": "ethanol-free",
+        "ferry": "ferry",
         "ferry_terminal": "ferry",
         "fire_station": "fire",
         "fuel": "fillingstation",
         "guest_house": "house",
         "harbor": "anchor",
+        "hotel": "hotel",
         "information": "info_pin",
         "lodging": "hotel",
         "marker": "pin",
@@ -65,6 +302,7 @@
         "religious_christian": "church",
         "religious_jewish": "synagogue",
         "religious_muslim": "shrine",
+        "shelter": "shelter",
         "shop": "cart",
         "swimming_pool": "water",
         "telephone": "phone",
@@ -73,242 +311,7 @@
         "toll_booth": "tollbooth",
         "waste_basket": "remove"
       },
-      "pattern": {
-        "fill": "#725a50",
-        "margin": 86,
-        "backdrop": [{
-          "name": "backdrop/shield",
-          "fill": "#725a50"
-        }, {
-          "name": "backdrop/background",
-          "fill": "#fff"
-        }]
-      },
-      "iconGroups": [{
-        "pattern": {
-          "fill": "#5d60be",
-          "backdrop": [{
-            "fill": "#5d60be"
-          }, {
-          }]
-        },
-        "icons": [
-          "aquarium",
-          "art_gallery",
-          "attraction",
-          "bank",
-          "bicycle",
-          "bicycle_rental",
-          "cinema",
-          "clothing_store",
-          "dog_park",
-          "gift",
-          "grocery",
-          "hairdresser",
-          "laundry",
-          "music",
-          "playground",
-          "shop",
-          "stadium",
-          "suitcase",
-          "theatre",
-          "theme_park",
-          "zoo"
-        ]
-      }, {
-        "pattern": {
-          "fill": "#d97200",
-          "backdrop": [{
-            "fill": "#d97200"
-          }, {
-          }]
-        },
-        "icons": [
-          "alcohol_shop",
-          "bakery",
-          "bar",
-          "beer",
-          "butcher",
-          "cafe",
-          "fast_food",
-          "ice_cream",
-          "restaurant",
-          "sushi"
-        ]
-      }, {
-        "pattern": {
-          "fill": "#76a723",
-          "backdrop": [{
-            "fill": "#76a723"
-          }, {
-          }]
-        },
-        "icons": [
-          "american_football",
-          "baseball",
-          "basketball",
-          "cricket",
-          "golf",
-          "pitch",
-          "skiing",
-          "soccer",
-          "swimming",
-          "swimming_pool",
-          "tennis"
-        ]
-      }, {
-        "pattern": {
-          "fill": "#76a723",
-          "backdrop": [{
-            "fill": "#76a723"
-          }, {
-          }]
-        },
-        "icons": [
-          "garden",
-          "mountain",
-          "park",
-          "picnic_site",
-          "volcano",
-          "wetland"
-        ]
-      }, {
-        "pattern": {
-          "fill": "#ba3827",
-          "backdrop": [{
-            "fill": "#ba3827"
-          }, {
-          }]
-        },
-        "icons": [
-          "danger",
-          "dentist",
-          "doctors",
-          "fire_station",
-          "heart",
-          "hospital",
-          "pharmacy",
-          "veterinary"
-        ]
-      }, {
-        "size": {
-          "11": 11,
-          "15": 15
-        },
-        "pattern": {
-          "margin": 0,
-          "backdrop": []
-        },
-        "icons": [
-          "building",
-          "circle-stroked",
-          "circle",
-          "commercial",
-          "cross",
-          "dam",
-          "industry",
-          "marker",
-          "square-stroke",
-          "square",
-          "star-stroke",
-          "star",
-          "triangle",
-          "triangle_stroked",
-          "warehouse"
-        ]
-      }, {
-        "pattern": {
-          "fill": "#fff",
-          "backdrop": [{
-            "fill": "#4898ff"
-          }]
-        },
-        "icons": [
-          "aerialway",
-          "airfield",
-          "airport",
-          "bus",
-          "car",
-          "charging_station",
-          "diesel_fuel",
-          "entrance",
-          "ethanol_free_fuel",
-          "ferry",
-          "ferry_terminal",
-          "fuel",
-          "harbor",
-          "heliport",
-          "parking",
-          "parking_garage",
-          "railway",
-          "rail_light",
-          "rail_metro",
-          "taxi",
-          "toll_booth"
-        ]
-      }, {
-        "pattern": {
-          "fill": "#fff",
-          "backdrop": [{
-            "fill": "#725a50"
-          }]
-        },
-        "icons": [
-          "alpine_hut",
-          "apartment",
-          "bed_and_breakfast",
-          "campsite",
-          "camp_site",
-          "caravan_site",
-          "chain",
-          "chalet",
-          "deal",
-          "guest_house",
-          "hostel",
-          "hotel",
-          "lodging",
-          "motel"
-        ]
-      }, {
-        "pattern": {
-          "fill": "#725a50",
-          "backdrop": [{
-            "fill": "#725a50"
-          }, {
-          }]
-        },
-        "icons": [
-          "castle",
-          "cemetery",
-          "college",
-          "drinking_water",
-          "embassy",
-          "information",
-          "lake",
-          "library",
-          "lighthouse",
-          "monument",
-          "museum",
-          "place_of_worship",
-          "police",
-          "post",
-          "prison",
-          "ranger_station",
-          "religious_christian",
-          "religious_jewish",
-          "religious_muslim",
-          "river",
-          "roadblock",
-          "rocket",
-          "school",
-          "shelter",
-          "telephone",
-          "toilets",
-          "town_hall",
-          "waste_basket",
-          "wheelchair"
-        ]
-      }]
+      "colorScheme": "colors"
     }],
     "paths": [
       "hotel",
