@@ -15,14 +15,14 @@ test('make svg', () => {
   `.split('\n').map(x => x.trim()).join('');
   const backdrop = {
     fill: '#aaa',
-    margin: 2,
+    margin: 64,
     dim: { width: 512, height: 592 },
     layers: [{ d: 'M 24 24 L 488 24' }]
   };
   const svg = makeSvg({
     id: 'a',
     svg: '<svg viewbox="0 0 512 512"><path d="M 0 0 L 40 50"/></svg>'
-  }, backdrop, { iconDim: 512, iconScaleFactor: 32 });
+  }, backdrop, { iconDim: 512 });
   assert.equal(svg, expected);
 });
 
