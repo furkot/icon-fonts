@@ -374,8 +374,8 @@
     "sprite": [{
       "name": "sprite-streets",
       "size": {
-        "11": 15,
-        "15": 19
+        "11": 16,
+        "15": 20
       },
       "pixelRatio": [1, 2, 3],
       "prefix": "furkot",
