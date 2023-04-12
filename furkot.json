@@ -33,48 +33,42 @@
         },
         "iconGroups": [{
           "pattern": {
-            "fill": "#5d60be",
+            "fill": "#633e83",
             "backdrop": [{
-              "fill": "#5d60be"
+              "fill": "#633e83"
             }, {
             }]
           },
           "icons": [
-            "aquarium",
-            "amusementpark",
-            "artmuseum",
-            "attraction",
             "bank",
-            "biking",
             "cart",
             "clothing_store",
-            "film",
+            "college",
+            "commercial",
+            "embassy",
+            "envelope",
             "gift",
-            "grocery",
             "hairdresser",
+            "industry",
+            "info_pin",
             "laundry",
-            "music",
-            "pets",
-            "playground",
-            "stadium",
+            "library",
+            "phone",
+            "police",
+            "prison",
+            "school",
             "suitcase",
-            "theater",
-            "zoo"
+            "town_hall",
+            "warehouse"
           ],
           "paths": [
-            "amphitheater",
-            "bird",
-            "book",
-            "entertain",
-            "historymuseum",
-            "guide",
-            "sciencemuseum"
+            "office"
           ]
         }, {
           "pattern": {
-            "fill": "#d97200",
+            "fill": "#f2680c",
             "backdrop": [{
-              "fill": "#d97200"
+              "fill": "#f2680c"
             }, {
             }]
           },
@@ -86,6 +80,7 @@
             "butcher",
             "coffee",
             "fast_food",
+            "grocery",
             "ice_cream",
             "restaurant",
             "sushi"
@@ -98,62 +93,100 @@
           ]
         }, {
           "pattern": {
-            "fill": "#76a723",
+            "fill": "#7c3158",
             "backdrop": [{
-              "fill": "#76a723"
+              "fill": "#7c3158"
             }, {
             }]
           },
           "icons": [
             "american_football",
+            "amusementpark",
+            "attraction",
             "baseball",
             "basketball",
             "cricket",
+            "film",
             "golf",
+            "music",
             "pitch",
-            "skiing",
             "soccer",
-            "swimming",
             "tennis",
-            "water"
+            "theater"
+          ],
+          "paths": [
+            "amphitheater",
+            "book",
+            "entertain",
+            "guide",
+            "pin",
+            "stadium",
+            "star",
+            "treasure"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#67ae15",
+            "backdrop": [{
+              "fill": "#67ae15"
+            }, {
+            }]
+          },
+          "icons": [
+            "biking",
+            "forest",
+            "garden",
+            "lookout",
+            "mountain",
+            "park",
+            "pets",
+            "picnic",
+            "playground",
+            "skiing",
+            "volcano",
+            "zoo"
+          ],
+          "paths": [
+            "bird",
+            "climbing",
+            "hiking",
+            "mountains",
+            "naturalfeature",
+            "outdoors",
+            "snowshoeing"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#0fb3e0",
+            "backdrop": [{
+              "fill": "#0fb3e0"
+            }, {
+            }]
+          },
+          "icons": [
+            "aquarium",
+            "anchor",
+            "dam",
+            "lake",
+            "river",
+            "swimming",
+            "water",
+            "wetland"
           ],
           "paths": [
             "beach",
-            "climbing",
+            "boatramp",
             "diving",
-            "hiking",
-            "outdoors",
+            "hotspring",
             "pier",
-            "snowshoeing",
             "surfing",
             "watersport"
           ]
         }, {
           "pattern": {
-            "fill": "#76a723",
+            "fill": "#cf0018",
             "backdrop": [{
-              "fill": "#76a723"
-            }, {
-            }]
-          },
-          "icons": [
-            "forest",
-            "garden",
-            "mountain",
-            "picnic",
-            "volcano",
-            "wetland"
-          ],
-          "paths": [
-            "hotspring",
-            "mountains",
-            "naturalfeature"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#ba3827",
-            "backdrop": [{
-              "fill": "#ba3827"
+              "fill": "#cf0018"
             }, {
             }]
           },
@@ -165,7 +198,12 @@
             "heart",
             "hospital",
             "pharmacy",
-            "veterinary"
+            "remove",
+            "roadblock",
+            "tap",
+            "toilets",
+            "veterinary",
+            "wheelchair"
           ]
         }, {
           "size": {
@@ -181,28 +219,39 @@
           ]
         }, {
           "pattern": {
-            "fill": "#fff",
+            "fill": "#3d3dfa",
             "backdrop": [{
-              "fill": "#4898ff"
+              "fill": "#3d3dfa"
+            }, {
+            }]
+          },
+          "icons": [
+            "charging",
+            "diesel",
+            "ethanol-free",
+            "fillingstation"
+          ]
+        }, {
+          "pattern": {
+            "fill": "#1d7f8c",
+            "backdrop": [{
+              "fill": "#1d7f8c"
+            }, {
             }]
           },
           "icons": [
             "aerialway",
             "airfield",
             "airplane",
-            "anchor",
             "bus",
             "car",
-            "charging",
-            "diesel",
             "entrance",
-            "ethanol-free",
             "ferry",
             "ferry_terminal",
-            "fillingstation",
             "heliport",
             "parking",
             "parking_garage",
+            "rocket",
             "rail_light",
             "rail_metro",
             "taxi",
@@ -211,9 +260,7 @@
           ],
           "paths": [
             "atv",
-            "boatramp",
             "jeep",
-            "lookout",
             "motorcycle",
             "off-road",
             "railroadcrossing",
@@ -223,9 +270,10 @@
           ]
         }, {
           "pattern": {
-            "fill": "#fff",
+            "fill": "#c716cd",
             "backdrop": [{
-              "fill": "#725a50"
+              "fill": "#c716cd"
+            }, {
             }]
           },
           "icons": [
@@ -235,73 +283,50 @@
             "hostel",
             "hotel",
             "house",
+            "motel",
             "rvpark",
+            "shelter",
             "tent"
           ]
         }, {
           "pattern": {
-            "fill": "#725a50",
+            "fill": "#664121",
             "backdrop": [{
-              "fill": "#725a50"
+              "fill": "#664121"
             }, {
             }]
           },
           "icons": [
+            "artmuseum",
             "building",
             "castle",
             "cemetery",
             "church",
-            "college",
-            "commercial",
-            "dam",
-            "embassy",
-            "envelope",
-            "industry",
-            "info_pin",
-            "lake",
-            "library",
             "lighthouse",
             "landmark",
             "museum",
-            "park",
-            "phone",
             "place_of_worship",
-            "police",
-            "prison",
-            "remove",
-            "river",
-            "roadblock",
-            "rocket",
-            "school",
-            "shelter",
             "shrine",
-            "synagogue",
-            "tap",
-            "toilets",
-            "town_hall",
-            "warehouse",
-            "wheelchair"
+            "synagogue"
           ],
           "paths": [
             "bridge",
             "first",
             "firstlast",
+            "historymuseum",
             "last",
             "observatory",
-            "office",
             "palace",
             "passthru",
-            "pin",
             "plaza",
             "ruins",
-            "star",
+            "sciencemuseum",
             "statue",
             "stop",
             "structure",
             "temple",
             "tower",
             "town",
-            "treasure",
             "villa",
             "windmill",
             "worldheritagesite"
