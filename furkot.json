@@ -19,11 +19,14 @@
     "svgSpritePath": "svg/sprite",
     "sprite": [{
       "name": "sprite-streets",
-      "size": [11, 15],
+      "size": {
+        "11": 15,
+        "15": 19
+      },
       "pixelRatio": [1, 2, 3],
       "pattern": {
         "fill": "#725a50",
-        "margin": 2,
+        "margin": 86,
         "backdrop": [{
           "name": "backdrop/shield",
           "fill": "#725a50"
@@ -139,6 +142,10 @@
           "veterinary"
         ]
       }, {
+        "size": {
+          "11": 11,
+          "15": 15
+        },
         "pattern": {
           "margin": 0,
           "backdrop": []
@@ -212,6 +219,45 @@
           "hotel",
           "lodging",
           "motel"
+        ]
+      }, {
+        "pattern": {
+          "fill": "#725a50",
+          "backdrop": [{
+            "fill": "#725a50"
+          }, {
+          }]
+        },
+        "icons": [
+          "castle",
+          "cemetery",
+          "college",
+          "drinking_water",
+          "embassy",
+          "information",
+          "lake",
+          "library",
+          "lighthouse",
+          "monument",
+          "museum",
+          "place_of_worship",
+          "police",
+          "post",
+          "prison",
+          "ranger_station",
+          "religious_christian",
+          "religious_jewish",
+          "religious_muslim",
+          "river",
+          "roadblock",
+          "rocket",
+          "school",
+          "shelter",
+          "telephone",
+          "toilets",
+          "town_hall",
+          "waste_basket",
+          "wheelchair"
         ]
       }]
     }],
