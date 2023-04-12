@@ -14,7 +14,8 @@
       "auth-icon-google": "google-plus",
       "auth-icon-tripit": "tripit",
       "auth-icon-twitter": "twitter",
-      "icon-back": "arrow-left"
+      "icon-back": "arrow-left",
+      "ff-icon-bank": "deal"
 
     },
     "colorScheme": {
@@ -59,6 +60,15 @@
             "suitcase",
             "theater",
             "zoo"
+          ],
+          "paths": [
+            "amphitheater",
+            "bird",
+            "book",
+            "entertain",
+            "historymuseum",
+            "guide",
+            "sciencemuseum"
           ]
         }, {
           "pattern": {
@@ -79,6 +89,12 @@
             "ice_cream",
             "restaurant",
             "sushi"
+          ],
+          "paths": [
+            "farmstand",
+            "food_shop",
+            "minimarket",
+            "wine"
           ]
         }, {
           "pattern": {
@@ -100,6 +116,17 @@
             "swimming",
             "tennis",
             "water"
+          ],
+          "paths": [
+            "beach",
+            "climbing",
+            "diving",
+            "hiking",
+            "outdoors",
+            "pier",
+            "snowshoeing",
+            "surfing",
+            "watersport"
           ]
         }, {
           "pattern": {
@@ -116,6 +143,11 @@
             "picnic",
             "volcano",
             "wetland"
+          ],
+          "paths": [
+            "hotspring",
+            "mountains",
+            "naturalfeature"
           ]
         }, {
           "pattern": {
@@ -176,6 +208,18 @@
             "taxi",
             "tollbooth",
             "train"
+          ],
+          "paths": [
+            "atv",
+            "boatramp",
+            "jeep",
+            "lookout",
+            "motorcycle",
+            "off-road",
+            "railroadcrossing",
+            "scenicroad",
+            "teleport",
+            "truck"
           ]
         }, {
           "pattern": {
@@ -237,6 +281,30 @@
             "town_hall",
             "warehouse",
             "wheelchair"
+          ],
+          "paths": [
+            "bridge",
+            "first",
+            "firstlast",
+            "last",
+            "observatory",
+            "office",
+            "palace",
+            "passthru",
+            "pin",
+            "plaza",
+            "ruins",
+            "star",
+            "statue",
+            "stop",
+            "structure",
+            "temple",
+            "tower",
+            "town",
+            "treasure",
+            "villa",
+            "windmill",
+            "worldheritagesite"
           ]
         }]
       },
