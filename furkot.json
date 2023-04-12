@@ -9,12 +9,12 @@
     "baseSelector": "ff-icon",
     "classPrefix": "ff-icon-",
     "alias": {
-      ".auth-icon-facebook": "facebook-2",
-      ".auth-icon-foursquare": "foursquare",
-      ".auth-icon-google": "google-plus",
-      ".auth-icon-tripit": "tripit",
-      ".auth-icon-twitter": "twitter",
-      ".icon-back": "arrow-left"
+      "auth-icon-facebook": "facebook-2",
+      "auth-icon-foursquare": "foursquare",
+      "auth-icon-google": "google-plus",
+      "auth-icon-tripit": "tripit",
+      "auth-icon-twitter": "twitter",
+      "icon-back": "arrow-left"
     },
     "svgSpritePath": "svg/sprite",
     "sprite": [{
