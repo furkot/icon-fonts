@@ -1,4 +1,24 @@
 
+2.5.0 / 2023-04-14
+==================
+
+ * make sprites slightly bigger
+ * change icon colors to use only light background
+ * assign color to all icons, not just the ones in sprite
+ * define short list of icons for a simple sprite
+ * remove shield-less small icons from sprite that are not used by Furkot map style
+ * generate stylesheet with icon colors
+ * separate color scheme from sprite specification
+ * remove geometric shapes from paths
+ * move mapping from svg source files to sprite entries from paths to sprite section of configuration file
+ * remove clock from the list of icons that represent stop markers
+ * can use food_shop as stop marker
+ * remove reference to already removed multinight icon
+ * specify margins in the same units as iconDim
+ * add missing icon group
+ * add support for overwriting size in icon group
+ * upgrade @furkot/webfonts-generator to ~2
+
 2.4.0 / 2023-04-06
 ==================
 
