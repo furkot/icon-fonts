@@ -1,7 +1,7 @@
 NODE_BIN = ./node_modules/.bin
 FONT = furkot
 
-FONT_TYPES = woff woff2
+FONT_TYPES = woff2
 FONT_INTERMEDIATE_FILES = $(patsubst %, build/$(FONT).%, $(FONT_TYPES))
 FONT_FILES = $(patsubst %, build/fonts/$(FONT).%, $(FONT_TYPES))
 
