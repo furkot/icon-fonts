@@ -1,4 +1,10 @@
 
+2.5.2 / 2024-01-05
+==================
+
+ * icon for offline
+ * stop building fonts in woff format (no longer used)
+
 2.5.1 / 2023-04-22
 ==================
 
