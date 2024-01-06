@@ -14,7 +14,6 @@
   "dependencies": {
     "@furkot/webfonts-generator": "~2",
     "@mapwhit/spriteone": "^0.1.0",
-    "async": "~3",
     "el-component": "^1.0.0",
     "handlebars": "~4",
     "less": "~4",
