@@ -1,4 +1,16 @@
 
+2.5.3 / 2024-01-06
+==================
+
+ * use @pirpilot/jshint instead of jshint
+ * upgrade marked to ~11
+ * use xml2js directly instead of using xmljson
+ * remove async module
+ * normalize xmljson usage
+ * remove `find` dependency
+ * soft dependency upgrade
+ * stop generating references to `.woff` files in CSS
+
 2.5.2 / 2024-01-05
 ==================
 
