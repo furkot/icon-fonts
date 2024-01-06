@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "jshint": "^2.13.6",
-    "marked": "~4"
+    "marked": "~11"
   },
   "files": [
     "index.js",
