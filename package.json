@@ -16,7 +16,6 @@
     "@mapwhit/spriteone": "^0.1.0",
     "async": "~3",
     "el-component": "^1.0.0",
-    "find": "^0.1.7",
     "handlebars": "~4",
     "less": "~4",
     "lodash": "~4",
