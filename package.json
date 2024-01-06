@@ -14,19 +14,17 @@
   "dependencies": {
     "@furkot/webfonts-generator": "~2",
     "@mapwhit/spriteone": "^0.1.0",
-    "async": "~3",
     "el-component": "^1.0.0",
-    "find": "^0.1.7",
     "handlebars": "~4",
     "less": "~4",
     "lodash": "~4",
     "svgo": "~3",
     "svgpath": "~2",
-    "xmljson": "^0.2.0"
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "jshint": "^2.13.6",
-    "marked": "~4"
+    "@pirxpilot/jshint": "^3.0.1",
+    "marked": "~11"
   },
   "files": [
     "index.js",
