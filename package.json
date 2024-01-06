@@ -20,7 +20,7 @@
     "lodash": "~4",
     "svgo": "~3",
     "svgpath": "~2",
-    "xmljson": "^0.2.0"
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "jshint": "^2.13.6",
