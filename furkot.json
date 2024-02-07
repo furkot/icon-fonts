@@ -229,7 +229,8 @@
             "charging",
             "diesel",
             "ethanol-free",
-            "fillingstation"
+            "fillingstation",
+            "propane-tank"
           ]
         }, {
           "pattern": {
@@ -411,6 +412,7 @@
         "hotel": "hotel",
         "information": "info_pin",
         "lodging": "hotel",
+        "lpg_fuel": "propane-tank",
         "monument": "landmark",
         "motel": "hotel",
         "park": "forest",
@@ -461,7 +463,7 @@
       "car",
       "first",
       "last",
-      "",
+      "propane-tank",
       "diving",
       "firstlast",
       "airplane",
