@@ -2,7 +2,7 @@
 [Angela Chen](https://thenounproject.com/sprawlr/): bird
 [Bakunetsu Kaito](https://thenounproject.com/sevenknights_friendship/): cemetery
 [Ben Alderfer](https://thenounproject.com/balderfer101/): park
-[Icons8](https://thenounproject.com/Icons8/): biking, outdoors
+[Icons8](https://thenounproject.com/Icons8/): biking, freeskiing, outdoors
 [Judith Lau](https://thenounproject.com/judith.e.lau/): jeep
 [Modik](https://thenounproject.com/modik/): lake
 [National Park Service](https://thenounproject.com/national-park-service/): aerialway, amphitheater, atv, bed, boatramp, climbing, diving, hiking, laundry, library, lighthouse, lookout, observatory, pets, picnic, pier, rvpark, skiing, snowshoeing, surfing, tent, watersport

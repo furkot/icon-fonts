@@ -149,6 +149,7 @@
           "paths": [
             "bird",
             "climbing",
+            "freeskiing",
             "hiking",
             "mountains",
             "naturalfeature",
@@ -545,7 +546,7 @@
       "cart",
       "boatramp",
       "bird",
-      "",
+      "freeskiing",
       "film",
       "music",
       "entertain",
