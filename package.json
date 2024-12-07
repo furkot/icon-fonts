@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@pirxpilot/jshint": "^3.0.1",
-    "marked": "~11"
+    "marked": "~15"
   },
   "files": [
     "index.js",
