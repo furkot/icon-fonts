@@ -42,6 +42,7 @@ build.intermediate: index.js $(SVG_FILES) $(FONT).json | build/fonts build/sprit
 	mv build/$(FONT).css build/$(FONT).less
 
 $(LICENSE): $(LICENSE_FILES)
+	mkdir -p $(@D)
 	awk 'FNR==1{print ""}1' $^ > $@
 
 build: $(FONT_FILES) build/$(FONT).less build/$(FONT).html
@@ -50,8 +51,11 @@ demo: build
 	$(NODE_BIN)/lessc build/$(FONT).less build/$(FONT).css
 	xdg-open build/$(FONT).html
 
-deploy: $(LICENSE)
-	$(NODE_BIN)/marked -o $(LICENSE_HTML) < $(LICENSE)
+$(LICENSE_HTML): $(LICENSE)
+	mkdir -p $(@D)
+	$(NODE_BIN)/marked -o $@ < $<
+
+deploy: $(LICENSE_HTML) build
 
 optimize:
 	node lib/optimize.js svg/furkot ../$(FONT).json
