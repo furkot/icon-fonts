@@ -1,4 +1,13 @@
 
+2.5.6 / 2024-12-10
+==================
+
+ * generate webp files instead of png files
+ * fix `deploy` target
+ * soft dependency update
+ * upgrade marked to ~15
+ * upgrade spriteone to 1.1.0
+
 2.5.5 / 2024-03-19
 ==================
 
