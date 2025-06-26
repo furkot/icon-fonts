@@ -18,15 +18,12 @@ describe('directory', () => {
     assert.ok(text.startsWith('<svg'));
     assert.ok(text.endsWith('</svg>\n'));
   });
-
 });
 
 describe('bag', () => {
-
   it('load', async () => {
     const b = bag({ dir: 'furkot' });
     const { svg } = await b.load('cloudy', { parse: true });
     assert.equal(svg.$.viewBox, '0 0 512 512');
   });
-
 });

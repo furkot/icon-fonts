@@ -16,433 +16,483 @@
       "auth-icon-twitter": "twitter",
       "icon-back": "arrow-left",
       "ff-icon-bank": "deal"
-
     },
     "colorScheme": {
       "colors": {
         "pattern": {
           "fill": "#725a50",
           "margin": 86,
-          "backdrop": [{
-            "name": "backdrop/shield",
-            "fill": "#725a50"
-          }, {
-            "name": "backdrop/background",
-            "fill": "#fff"
-          }]
+          "backdrop": [
+            {
+              "name": "backdrop/shield",
+              "fill": "#725a50"
+            },
+            {
+              "name": "backdrop/background",
+              "fill": "#fff"
+            }
+          ]
         },
-        "iconGroups": [{
-          "pattern": {
-            "fill": "#633e83",
-            "backdrop": [{
-              "fill": "#633e83"
-            }, {
-            }]
+        "iconGroups": [
+          {
+            "pattern": {
+              "fill": "#633e83",
+              "backdrop": [
+                {
+                  "fill": "#633e83"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "bank",
+              "cart",
+              "clothing_store",
+              "college",
+              "commercial",
+              "embassy",
+              "envelope",
+              "gift",
+              "hairdresser",
+              "industry",
+              "info_pin",
+              "laundry",
+              "library",
+              "phone",
+              "police",
+              "prison",
+              "school",
+              "suitcase",
+              "town_hall",
+              "warehouse"
+            ],
+            "paths": [
+              "office"
+            ]
           },
-          "icons": [
-            "bank",
-            "cart",
-            "clothing_store",
-            "college",
-            "commercial",
-            "embassy",
-            "envelope",
-            "gift",
-            "hairdresser",
-            "industry",
-            "info_pin",
-            "laundry",
-            "library",
-            "phone",
-            "police",
-            "prison",
-            "school",
-            "suitcase",
-            "town_hall",
-            "warehouse"
-          ],
-          "paths": [
-            "office"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#f2680c",
-            "backdrop": [{
-              "fill": "#f2680c"
-            }, {
-            }]
+          {
+            "pattern": {
+              "fill": "#f2680c",
+              "backdrop": [
+                {
+                  "fill": "#f2680c"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "alcohol_shop",
+              "bakery",
+              "bar",
+              "brewery",
+              "butcher",
+              "coffee",
+              "fast_food",
+              "grocery",
+              "ice_cream",
+              "restaurant",
+              "sushi"
+            ],
+            "paths": [
+              "farmstand",
+              "food_shop",
+              "minimarket",
+              "wine"
+            ]
           },
-          "icons": [
-            "alcohol_shop",
-            "bakery",
-            "bar",
-            "brewery",
-            "butcher",
-            "coffee",
-            "fast_food",
-            "grocery",
-            "ice_cream",
-            "restaurant",
-            "sushi"
-          ],
-          "paths": [
-            "farmstand",
-            "food_shop",
-            "minimarket",
-            "wine"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#7c3158",
-            "backdrop": [{
-              "fill": "#7c3158"
-            }, {
-            }]
+          {
+            "pattern": {
+              "fill": "#7c3158",
+              "backdrop": [
+                {
+                  "fill": "#7c3158"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "american_football",
+              "amusementpark",
+              "attraction",
+              "baseball",
+              "basketball",
+              "cricket",
+              "film",
+              "golf",
+              "music",
+              "pitch",
+              "soccer",
+              "tennis",
+              "theater"
+            ],
+            "paths": [
+              "amphitheater",
+              "book",
+              "entertain",
+              "guide",
+              "pin",
+              "stadium",
+              "star",
+              "treasure"
+            ]
           },
-          "icons": [
-            "american_football",
-            "amusementpark",
-            "attraction",
-            "baseball",
-            "basketball",
-            "cricket",
-            "film",
-            "golf",
-            "music",
-            "pitch",
-            "soccer",
-            "tennis",
-            "theater"
-          ],
-          "paths": [
-            "amphitheater",
-            "book",
-            "entertain",
-            "guide",
-            "pin",
-            "stadium",
-            "star",
-            "treasure"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#67ae15",
-            "backdrop": [{
-              "fill": "#67ae15"
-            }, {
-            }]
+          {
+            "pattern": {
+              "fill": "#67ae15",
+              "backdrop": [
+                {
+                  "fill": "#67ae15"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "biking",
+              "forest",
+              "garden",
+              "lookout",
+              "mountain",
+              "park",
+              "pets",
+              "picnic",
+              "playground",
+              "skiing",
+              "volcano",
+              "zoo"
+            ],
+            "paths": [
+              "bird",
+              "climbing",
+              "freeskiing",
+              "hiking",
+              "mountains",
+              "naturalfeature",
+              "outdoors",
+              "snowshoeing"
+            ]
           },
-          "icons": [
-            "biking",
-            "forest",
-            "garden",
-            "lookout",
-            "mountain",
-            "park",
-            "pets",
-            "picnic",
-            "playground",
-            "skiing",
-            "volcano",
-            "zoo"
-          ],
-          "paths": [
-            "bird",
-            "climbing",
-            "freeskiing",
-            "hiking",
-            "mountains",
-            "naturalfeature",
-            "outdoors",
-            "snowshoeing"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#0fb3e0",
-            "backdrop": [{
-              "fill": "#0fb3e0"
-            }, {
-            }]
+          {
+            "pattern": {
+              "fill": "#0fb3e0",
+              "backdrop": [
+                {
+                  "fill": "#0fb3e0"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "aquarium",
+              "anchor",
+              "dam",
+              "lake",
+              "river",
+              "swimming",
+              "water",
+              "wetland"
+            ],
+            "paths": [
+              "beach",
+              "boatramp",
+              "diving",
+              "hotspring",
+              "pier",
+              "surfing",
+              "watersport"
+            ]
           },
-          "icons": [
-            "aquarium",
-            "anchor",
-            "dam",
-            "lake",
-            "river",
-            "swimming",
-            "water",
-            "wetland"
-          ],
-          "paths": [
-            "beach",
-            "boatramp",
-            "diving",
-            "hotspring",
-            "pier",
-            "surfing",
-            "watersport"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#cf0018",
-            "backdrop": [{
-              "fill": "#cf0018"
-            }, {
-            }]
+          {
+            "pattern": {
+              "fill": "#cf0018",
+              "backdrop": [
+                {
+                  "fill": "#cf0018"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "danger",
+              "dentist",
+              "doctor",
+              "fire",
+              "heart",
+              "hospital",
+              "pharmacy",
+              "remove",
+              "roadblock",
+              "tap",
+              "toilets",
+              "veterinary",
+              "wheelchair"
+            ]
           },
-          "icons": [
-            "danger",
-            "dentist",
-            "doctor",
-            "fire",
-            "heart",
-            "hospital",
-            "pharmacy",
-            "remove",
-            "roadblock",
-            "tap",
-            "toilets",
-            "veterinary",
-            "wheelchair"
-          ]
-        }, {
-          "size": {
-            "11": 11,
-            "15": 15
+          {
+            "size": {
+              "11": 11,
+              "15": 15
+            },
+            "pattern": {
+              "margin": 0,
+              "backdrop": []
+            },
+            "icons": [
+              "triangle_stroked"
+            ]
           },
-          "pattern": {
-            "margin": 0,
-            "backdrop": []
+          {
+            "pattern": {
+              "fill": "#3d3dfa",
+              "backdrop": [
+                {
+                  "fill": "#3d3dfa"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "charging",
+              "diesel",
+              "ethanol-free",
+              "fillingstation",
+              "propane-tank"
+            ]
           },
-          "icons": [
-            "triangle_stroked"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#3d3dfa",
-            "backdrop": [{
-              "fill": "#3d3dfa"
-            }, {
-            }]
+          {
+            "pattern": {
+              "fill": "#1d7f8c",
+              "backdrop": [
+                {
+                  "fill": "#1d7f8c"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "aerialway",
+              "airfield",
+              "airplane",
+              "bus",
+              "car",
+              "entrance",
+              "ferry",
+              "ferry_terminal",
+              "heliport",
+              "parking",
+              "parking_garage",
+              "rocket",
+              "rail_light",
+              "rail_metro",
+              "taxi",
+              "tollbooth",
+              "train"
+            ],
+            "paths": [
+              "atv",
+              "jeep",
+              "motorcycle",
+              "off-road",
+              "railroadcrossing",
+              "scenicroad",
+              "teleport",
+              "truck"
+            ]
           },
-          "icons": [
-            "charging",
-            "diesel",
-            "ethanol-free",
-            "fillingstation",
-            "propane-tank"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#1d7f8c",
-            "backdrop": [{
-              "fill": "#1d7f8c"
-            }, {
-            }]
+          {
+            "pattern": {
+              "fill": "#c716cd",
+              "backdrop": [
+                {
+                  "fill": "#c716cd"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "alpine_hut",
+              "chain",
+              "deal",
+              "hostel",
+              "hotel",
+              "house",
+              "motel",
+              "rvpark",
+              "shelter",
+              "tent"
+            ]
           },
-          "icons": [
-            "aerialway",
-            "airfield",
-            "airplane",
-            "bus",
-            "car",
-            "entrance",
-            "ferry",
-            "ferry_terminal",
-            "heliport",
-            "parking",
-            "parking_garage",
-            "rocket",
-            "rail_light",
-            "rail_metro",
-            "taxi",
-            "tollbooth",
-            "train"
-          ],
-          "paths": [
-            "atv",
-            "jeep",
-            "motorcycle",
-            "off-road",
-            "railroadcrossing",
-            "scenicroad",
-            "teleport",
-            "truck"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#c716cd",
-            "backdrop": [{
-              "fill": "#c716cd"
-            }, {
-            }]
-          },
-          "icons": [
-            "alpine_hut",
-            "chain",
-            "deal",
-            "hostel",
-            "hotel",
-            "house",
-            "motel",
-            "rvpark",
-            "shelter",
-            "tent"
-          ]
-        }, {
-          "pattern": {
-            "fill": "#664121",
-            "backdrop": [{
-              "fill": "#664121"
-            }, {
-            }]
-          },
-          "icons": [
-            "artmuseum",
-            "building",
-            "castle",
-            "cemetery",
-            "church",
-            "lighthouse",
-            "landmark",
-            "museum",
-            "place_of_worship",
-            "shrine",
-            "synagogue"
-          ],
-          "paths": [
-            "bridge",
-            "first",
-            "firstlast",
-            "historymuseum",
-            "last",
-            "observatory",
-            "palace",
-            "passthru",
-            "plaza",
-            "ruins",
-            "sciencemuseum",
-            "statue",
-            "stop",
-            "structure",
-            "temple",
-            "tower",
-            "town",
-            "villa",
-            "windmill",
-            "worldheritagesite"
-          ]
-        }]
+          {
+            "pattern": {
+              "fill": "#664121",
+              "backdrop": [
+                {
+                  "fill": "#664121"
+                },
+                {}
+              ]
+            },
+            "icons": [
+              "artmuseum",
+              "building",
+              "castle",
+              "cemetery",
+              "church",
+              "lighthouse",
+              "landmark",
+              "museum",
+              "place_of_worship",
+              "shrine",
+              "synagogue"
+            ],
+            "paths": [
+              "bridge",
+              "first",
+              "firstlast",
+              "historymuseum",
+              "last",
+              "observatory",
+              "palace",
+              "passthru",
+              "plaza",
+              "ruins",
+              "sciencemuseum",
+              "statue",
+              "stop",
+              "structure",
+              "temple",
+              "tower",
+              "town",
+              "villa",
+              "windmill",
+              "worldheritagesite"
+            ]
+          }
+        ]
       },
       "simple": {
         "pattern": {
           "fill": "#202020",
           "margin": 86,
-          "backdrop": [{
-            "name": "backdrop/shield",
-            "fill": "#202020"
-          }, {
-            "name": "backdrop/background",
-            "fill": "#fff"
-          }]
-        },
-        "iconGroups": [{
-          "pattern": {
-            "margin": 0,
-            "backdrop": []
-          },
-          "icons": [
-            "building",
-            "circle_stroked",
-            "circle",
-            "commercial",
-            "cross",
-            "dam",
-            "industry",
-            "pin",
-            "square_stroked",
-            "square",
-            "star_stroked",
-            "star",
-            "triangle",
-            "triangle_stroked",
-            "warehouse"
+          "backdrop": [
+            {
+              "name": "backdrop/shield",
+              "fill": "#202020"
+            },
+            {
+              "name": "backdrop/background",
+              "fill": "#fff"
+            }
           ]
-        }]
+        },
+        "iconGroups": [
+          {
+            "pattern": {
+              "margin": 0,
+              "backdrop": []
+            },
+            "icons": [
+              "building",
+              "circle_stroked",
+              "circle",
+              "commercial",
+              "cross",
+              "dam",
+              "industry",
+              "pin",
+              "square_stroked",
+              "square",
+              "star_stroked",
+              "star",
+              "triangle",
+              "triangle_stroked",
+              "warehouse"
+            ]
+          }
+        ]
       }
     },
     "svgSpritePath": "svg/sprite",
-    "sprite": [{
-      "name": "sprite-streets",
-      "size": {
-        "11": 16,
-        "15": 20
+    "sprite": [
+      {
+        "name": "sprite-streets",
+        "size": {
+          "11": 16,
+          "15": 20
+        },
+        "pixelRatio": [
+          1,
+          2,
+          3
+        ],
+        "prefix": "furkot",
+        "svgSourceFiles": {
+          "airport": "airplane",
+          "alpine_hut": "shelter",
+          "apartment": "house",
+          "art_gallery": "artmuseum",
+          "bank": "deal",
+          "bed_and_breakfast": "house",
+          "beer": "brewery",
+          "bicycle": "biking",
+          "bicycle_rental": "biking",
+          "cafe": "coffee",
+          "campsite": "tent",
+          "camp_site": "tent",
+          "caravan_site": "rvpark",
+          "chalet": "house",
+          "charging_station": "charging",
+          "cinema": "film",
+          "deal": "deal",
+          "diesel_fuel": "diesel",
+          "doctors": "doctor",
+          "dog_park": "pets",
+          "drinking_water": "tap",
+          "ethanol_free_fuel": "ethanol-free",
+          "ferry": "ferry",
+          "ferry_terminal": "ferry",
+          "fire_station": "fire",
+          "fuel": "fillingstation",
+          "guest_house": "house",
+          "harbor": "anchor",
+          "hotel": "hotel",
+          "information": "info_pin",
+          "lodging": "hotel",
+          "lpg_fuel": "propane-tank",
+          "monument": "landmark",
+          "motel": "hotel",
+          "park": "forest",
+          "picnic_site": "picnic",
+          "post": "envelope",
+          "railway": "train",
+          "ranger_station": "park",
+          "religious_christian": "church",
+          "religious_jewish": "synagogue",
+          "religious_muslim": "shrine",
+          "shelter": "shelter",
+          "shop": "cart",
+          "swimming_pool": "water",
+          "telephone": "phone",
+          "theatre": "theater",
+          "theme_park": "amusementpark",
+          "toll_booth": "tollbooth",
+          "waste_basket": "remove"
+        },
+        "colorScheme": "colors"
       },
-      "pixelRatio": [1, 2, 3],
-      "prefix": "furkot",
-      "svgSourceFiles": {
-        "airport": "airplane",
-        "alpine_hut": "shelter",
-        "apartment": "house",
-        "art_gallery": "artmuseum",
-        "bank": "deal",
-        "bed_and_breakfast": "house",
-        "beer": "brewery",
-        "bicycle": "biking",
-        "bicycle_rental": "biking",
-        "cafe": "coffee",
-        "campsite": "tent",
-        "camp_site": "tent",
-        "caravan_site": "rvpark",
-        "chalet": "house",
-        "charging_station": "charging",
-        "cinema": "film",
-        "deal": "deal",
-        "diesel_fuel": "diesel",
-        "doctors": "doctor",
-        "dog_park": "pets",
-        "drinking_water": "tap",
-        "ethanol_free_fuel": "ethanol-free",
-        "ferry": "ferry",
-        "ferry_terminal": "ferry",
-        "fire_station": "fire",
-        "fuel": "fillingstation",
-        "guest_house": "house",
-        "harbor": "anchor",
-        "hotel": "hotel",
-        "information": "info_pin",
-        "lodging": "hotel",
-        "lpg_fuel": "propane-tank",
-        "monument": "landmark",
-        "motel": "hotel",
-        "park": "forest",
-        "picnic_site": "picnic",
-        "post": "envelope",
-        "railway": "train",
-        "ranger_station": "park",
-        "religious_christian": "church",
-        "religious_jewish": "synagogue",
-        "religious_muslim": "shrine",
-        "shelter": "shelter",
-        "shop": "cart",
-        "swimming_pool": "water",
-        "telephone": "phone",
-        "theatre": "theater",
-        "theme_park": "amusementpark",
-        "toll_booth": "tollbooth",
-        "waste_basket": "remove"
-      },
-      "colorScheme": "colors"
-    }, {
-      "name": "sprite-simple",
-      "size": {
-        "11": 11,
-        "15": 15
-      },
-      "pixelRatio": [1, 2, 3],
-      "colorScheme": "simple"
-    }],
+      {
+        "name": "sprite-simple",
+        "size": {
+          "11": 11,
+          "15": 15
+        },
+        "pixelRatio": [
+          1,
+          2,
+          3
+        ],
+        "colorScheme": "simple"
+      }
+    ],
     "paths": [
       "hotel",
       "stop",

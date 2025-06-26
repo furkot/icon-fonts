@@ -5,7 +5,10 @@
   "scripts": {
     "test": "make check"
   },
-  "repository": "furkot/furkot-icon-fonts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkot/icon-fonts.git"
+  },
   "keywords": [
     "furkot"
   ],
@@ -23,7 +26,7 @@
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "@pirxpilot/jshint": "^3.0.1",
+    "@biomejs/biome": "2.0.5",
     "marked": "~15"
   },
   "files": [
