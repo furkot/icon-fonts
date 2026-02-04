@@ -1,4 +1,14 @@
 
+2.5.7 / 2026-02-04
+==================
+
+ * replace `yarn` with `pnpm`
+ * upgrade `marked` to ~17
+ * optimize sprite-streets icons
+ * upgrade `svgo` to ~4
+ * upgrade `el-component` to ~2
+ * use `biome` as a linter and formatter
+
 2.5.6 / 2024-12-10
 ==================
 
