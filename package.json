@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.14",
-    "marked": "~15"
+    "marked": "~17"
   },
   "files": [
     "index.js",
