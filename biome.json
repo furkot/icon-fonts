@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.5/schema.json",
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "assist": {
     "actions": {
       "source": {
@@ -34,28 +34,35 @@
   },
   "linter": {
     "enabled": true,
+    "domains": {
+      "project": "recommended"
+    },
     "rules": {
       "recommended": true,
       "correctness": {
+        "noUndeclaredDependencies": "error",
         "noUndeclaredVariables": "error",
-        "noUnusedVariables": "error"
+        "noUnusedVariables": "error",
+        "useImportExtensions": "error",
+        "useJsonImportAttributes": "error"
       },
       "complexity": {
         "noForEach": "off"
       },
       "style": {
-        "noParameterAssign": "off",
-        "useDefaultParameterLast": "error",
-        "useSingleVarDeclarator": "error",
         "noUnusedTemplateLiteral": "error",
+        "noUselessElse": "error",
+        "useBlockStatements": "error",
+        "useDefaultParameterLast": "error",
         "useNumberNamespace": "error",
-        "noUselessElse": "error"
+        "useSingleVarDeclarator": "error"
       },
       "performance": {
         "noDelete": "off"
       },
       "suspicious": {
-        "noAssignInExpressions": "off"
+        "noAssignInExpressions": "off",
+        "useIterableCallbackReturn": "off"
       }
     }
   }

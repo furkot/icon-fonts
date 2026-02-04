@@ -1,7 +1,7 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 
-const { directory, bag } = require('../../lib/svg2sprite/directory');
+const { directory, bag } = require('../../lib/svg2sprite/directory.js');
 
 describe('directory', () => {
   it('files', async () => {

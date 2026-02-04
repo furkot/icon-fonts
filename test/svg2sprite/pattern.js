@@ -1,7 +1,7 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 
-const { addPatternDefaults } = require('../../lib/svg2sprite/pattern');
+const { addPatternDefaults } = require('../../lib/svg2sprite/pattern.js');
 
 describe('add defaults to pattern', () => {
   const dp = {

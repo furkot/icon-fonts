@@ -1,5 +1,5 @@
 const descriptors = process.argv.slice(2);
-const generate = require('./lib/generate');
+const generate = require('./lib/generate.js');
 const version = require('./package.json').version;
 const path = require('node:path');
 

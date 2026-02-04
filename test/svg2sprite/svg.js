@@ -1,7 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { makeSvg } = require('../../lib/svg2sprite/svg');
+const { makeSvg } = require('../../lib/svg2sprite/svg.js');
 
 test('make svg', () => {
   const expected = `
