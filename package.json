@@ -5,7 +5,10 @@
   "scripts": {
     "test": "make check"
   },
-  "repository": "furkot/furkot-icon-fonts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkot/icon-fonts.git"
+  },
   "keywords": [
     "furkot"
   ],
@@ -14,17 +17,17 @@
   "dependencies": {
     "@furkot/webfonts-generator": "~2",
     "@mapwhit/spriteone": "^1.1.0",
-    "el-component": "^1.0.0",
+    "el-component": "~2",
     "handlebars": "~4",
     "less": "~4",
     "lodash": "~4",
-    "svgo": "~3",
+    "svgo": "~4",
     "svgpath": "~2",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "@pirxpilot/jshint": "^3.0.1",
-    "marked": "~15"
+    "@biomejs/biome": "2.3.14",
+    "marked": "~17"
   },
   "files": [
     "index.js",

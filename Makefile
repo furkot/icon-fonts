@@ -16,15 +16,21 @@ all: check build
 check: lint test
 
 lint:
-	$(NODE_BIN)/jshint index.js lib
+	$(NODE_BIN)/biome ci
+
+format:
+	$(NODE_BIN)/biome check --fix
 
 test:
 	node --test
 
+test-cov:
+	node --test --experimental-test-coverage
+
 clean:
 	rm -rf build
 
-.PHONY: all check lint test
+.PHONY: all check format lint test test-cov
 
 build/fonts build/sprite:
 	mkdir -p $@

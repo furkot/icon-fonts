@@ -1,8 +1,7 @@
 const descriptors = process.argv.slice(2);
-const generate = require('./lib/generate');
+const generate = require('./lib/generate.js');
 const version = require('./package.json').version;
-const path = require('path');
-
+const path = require('node:path');
 
 if (descriptors.length < 1) {
   console.error('Usage: ', process.argv.slice(0, 2).join(' '), 'font.json [, another-font.json]');

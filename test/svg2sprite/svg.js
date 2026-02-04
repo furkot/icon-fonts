@@ -1,8 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { makeSvg } = require('../../lib/svg2sprite/svg');
-
+const { makeSvg } = require('../../lib/svg2sprite/svg.js');
 
 test('make svg', () => {
   const expected = `
@@ -12,17 +11,24 @@ test('make svg', () => {
         <path d="M 0 0 L 40 50"/>
       </svg>
     </svg>
-  `.split('\n').map(x => x.trim()).join('');
+  `
+    .split('\n')
+    .map(x => x.trim())
+    .join('');
   const backdrop = {
     fill: '#aaa',
     margin: 64,
     dim: { width: 512, height: 592 },
     layers: [{ d: 'M 24 24 L 488 24' }]
   };
-  const svg = makeSvg({
-    id: 'a',
-    svg: '<svg viewbox="0 0 512 512"><path d="M 0 0 L 40 50"/></svg>'
-  }, backdrop, { iconDim: 512 });
+  const svg = makeSvg(
+    {
+      id: 'a',
+      svg: '<svg viewbox="0 0 512 512"><path d="M 0 0 L 40 50"/></svg>'
+    },
+    backdrop,
+    { iconDim: 512 }
+  );
   assert.equal(svg, expected);
 });
 
@@ -31,15 +37,22 @@ test('adjust svg', () => {
     <svg width="512" height="512" fill="#aaa" viewBox="0 0 512 512">
         <path d="M 0 0 L 40 50"/>
     </svg>
-  `.split('\n').map(x => x.trim()).join('');
+  `
+    .split('\n')
+    .map(x => x.trim())
+    .join('');
   const backdrop = {
     fill: '#aaa',
     dim: { width: 512, height: 592 },
     layers: []
   };
-  const svg = makeSvg({
-    id: 'a',
-    svg: '<svg viewBox="0 0 512 512"><path d="M 0 0 L 40 50"/></svg>'
-  }, backdrop,  { iconDim: 512 });
+  const svg = makeSvg(
+    {
+      id: 'a',
+      svg: '<svg viewBox="0 0 512 512"><path d="M 0 0 L 40 50"/></svg>'
+    },
+    backdrop,
+    { iconDim: 512 }
+  );
   assert.deepEqual(svg, expected);
 });
